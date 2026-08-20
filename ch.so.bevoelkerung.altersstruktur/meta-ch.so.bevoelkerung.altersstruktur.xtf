@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ili:transfer xmlns="http://www.interlis.ch/xtf/2.4/SO_AGI_DataCatalog_Datasheet_20260523" xmlns:base="http://www.interlis.ch/xtf/2.4/SO_AGI_DataCatalog_Base_20260529" xmlns:ili="http://www.interlis.ch/xtf/2.4/INTERLIS">
+  <ili:headersection>
+    <ili:models>
+      <ili:model>SO_AGI_DataCatalog_Datasheet_20260523</ili:model>
+      <ili:model>SO_AGI_DataCatalog_Base_20260529</ili:model>
+    </ili:models>
+    <ili:sender>datenblatt-editor</ili:sender>
+  </ili:headersection>
+  <ili:datasection>
+    <Metadata ili:bid="x1">
+      <DatasetSeries ili:tid="ch.so.bevoelkerung.altersstruktur">
+        <identifier>ch.so.bevoelkerung.altersstruktur</identifier>
+        <title>Altersstruktur der Wohnbevölkerung nach Geschlecht (Schweizer/Ausländer)</title>
+        <description>Ständige Wohnbevölkerung des Gesamtkantons Solothurn nach Jahrgang (Einzeljahre), gegliedert nach Geschlecht und Staatsangehörigkeit (Schweizer/Schweizerinnen, Ausländer/Ausländerinnen) sowie Total je Jahrgang. Grundlage u. a. für die Alterspyramide. Projektzweck: Kantonale Bevölkerungsstatistik als Grundlage für Planung, Berichterstattung und Verteilentscheide.</description>
+        <accessLevel>open</accessLevel>
+        <publicationStatus>published</publicationStatus>
+        <creatorRef>ch.so.afin</creatorRef>
+        <contactPoint>
+          <base:ContactPoint>
+            <base:name>Patrick Balles</base:name>
+            <base:organizationUnit>Statistik</base:organizationUnit>
+            <base:email>mailto:patrick.balles@fd.so.ch</base:email>
+          </base:ContactPoint>
+        </contactPoint>
+        <themes>Bevoelkerung</themes>
+        <keywords>Bevölkerung</keywords>
+        <keywords>Altersstruktur</keywords>
+        <keywords>Jahrgang</keywords>
+        <keywords>Alterspyramide</keywords>
+        <keywords>Geschlecht</keywords>
+        <keywords>Nationalität</keywords>
+        <keywords>Solothurn</keywords>
+        <accrualPeriodicity>annually</accrualPeriodicity>
+        <modified>2026-08-20</modified>
+        <temporalCoverage>
+          <ClosedTemporalCoverage>
+            <base:referenceDate>2025-12-31</base:referenceDate>
+          </ClosedTemporalCoverage>
+        </temporalCoverage>
+        <surveyMethod>Vollerhebung (Registerauswertung) aus dem harmonisierten Einwohnerregister des Kantons Solothurn (Abbild der Gemeinderegister). Stichtagsbestand. Beobachtungseinheit: Person (AHV-Nr.), aggregiert auf Jahrgang.</surveyMethod>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>Jahrgang</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Geburtsjahr</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>Auslaender</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Männer ausländische Staatsangehörigkeit</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>Auslaenderinnen</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Frauen ausländische Staatsangehörigkeit</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>Schweizer</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Männer schweizerische Staatsangehörigkeit</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>Schweizerinnen</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Frauen schweizerische Staatsangehörigkeit</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>Total</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Gesamtbevölkerung je Jahrgang</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <dataAvailableFrom>2024</dataAvailableFrom>
+        <issues>
+          <DatasetIssue>
+            <identifier>ch.so.bevoelkerung.altersstruktur_2025</identifier>
+            <title>Altersstruktur der Wohnbevölkerung nach Geschlecht (Schweizer/Ausländer) 2025</title>
+            <description>Ständige Wohnbevölkerung des Gesamtkantons Solothurn nach Jahrgang (Einzeljahre), gegliedert nach Geschlecht und Staatsangehörigkeit (Schweizer/Schweizerinnen, Ausländer/Ausländerinnen) sowie Total je Jahrgang. Grundlage u. a. für die Alterspyramide. Projektzweck: Kantonale Bevölkerungsstatistik als Grundlage für Planung, Berichterstattung und Verteilentscheide.</description>
+            <issueLabel>2025</issueLabel>
+            <isCurrentIssue>true</isCurrentIssue>
+            <publicationStatus>published</publicationStatus>
+            <accrualPeriodicity>annually</accrualPeriodicity>
+            <modified>2026-08-20</modified>
+            <temporalCoverage>
+              <ClosedTemporalCoverage>
+                <base:referenceDate>2025-12-31</base:referenceDate>
+              </ClosedTemporalCoverage>
+            </temporalCoverage>
+            <surveyMethod>Vollerhebung (Registerauswertung) aus dem harmonisierten Einwohnerregister des Kantons Solothurn (Abbild der Gemeinderegister). Stichtagsbestand. Beobachtungseinheit: Person (AHV-Nr.), aggregiert auf Jahrgang.</surveyMethod>
+            <dataAvailableFrom>2024</dataAvailableFrom>
+          </DatasetIssue>
+        </issues>
+      </DatasetSeries>
+    </Metadata>
+  </ili:datasection>
+</ili:transfer>

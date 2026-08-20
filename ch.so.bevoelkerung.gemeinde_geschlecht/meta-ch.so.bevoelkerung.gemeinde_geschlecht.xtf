@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ili:transfer xmlns="http://www.interlis.ch/xtf/2.4/SO_AGI_DataCatalog_Datasheet_20260523" xmlns:base="http://www.interlis.ch/xtf/2.4/SO_AGI_DataCatalog_Base_20260529" xmlns:ili="http://www.interlis.ch/xtf/2.4/INTERLIS">
+  <ili:headersection>
+    <ili:models>
+      <ili:model>SO_AGI_DataCatalog_Datasheet_20260523</ili:model>
+      <ili:model>SO_AGI_DataCatalog_Base_20260529</ili:model>
+    </ili:models>
+    <ili:sender>datenblatt-editor</ili:sender>
+  </ili:headersection>
+  <ili:datasection>
+    <Metadata ili:bid="x1">
+      <DatasetSeries ili:tid="ch.so.bevoelkerung.gemeinde_geschlecht">
+        <identifier>ch.so.bevoelkerung.gemeinde_geschlecht</identifier>
+        <title>Wohnbevölkerung nach Gemeinde und Geschlecht (Schweizer/Ausländer)</title>
+        <description>Ständige Wohnbevölkerung des Kantons Solothurn nach Gemeinde und Geschlecht, differenziert nach schweizerischer und ausländischer Staatsangehörigkeit (Männer/Frauen je Gruppe sowie Totale). Projektzweck: Kantonale Bevölkerungsstatistik als Grundlage für Planung, Berichterstattung und Verteilentscheide.</description>
+        <accessLevel>open</accessLevel>
+        <publicationStatus>published</publicationStatus>
+        <creatorRef>ch.so.afin</creatorRef>
+        <contactPoint>
+          <base:ContactPoint>
+            <base:name>Patrick Balles</base:name>
+            <base:organizationUnit>Statistik</base:organizationUnit>
+            <base:email>mailto:patrick.balles@fd.so.ch</base:email>
+          </base:ContactPoint>
+        </contactPoint>
+        <themes>Bevoelkerung</themes>
+        <keywords>Bevölkerung</keywords>
+        <keywords>Wohnbevölkerung</keywords>
+        <keywords>Bevölkerungsbestand</keywords>
+        <keywords>Gemeinde</keywords>
+        <keywords>Geschlecht</keywords>
+        <keywords>Nationalität</keywords>
+        <keywords>Schweizer</keywords>
+        <keywords>Ausländer</keywords>
+        <keywords>Solothurn</keywords>
+        <accrualPeriodicity>annually</accrualPeriodicity>
+        <modified>2026-08-20</modified>
+        <temporalCoverage>
+          <ClosedTemporalCoverage>
+            <base:referenceDate>2025-12-31</base:referenceDate>
+          </ClosedTemporalCoverage>
+        </temporalCoverage>
+        <surveyMethod>Vollerhebung (Registerauswertung) aus dem harmonisierten Einwohnerregister des Kantons Solothurn (Abbild der Gemeinderegister). Stichtagsbestand. Beobachtungseinheit: Person (AHV-Nr.), aggregiert auf Gemeinde.</surveyMethod>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>BFS_Nr</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>BFS-Gemeindenummer</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>Gemeinde</base:name>
+            <base:dataType>TEXT</base:dataType>
+            <base:description>Gemeindename</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>Bezirk</base:name>
+            <base:dataType>TEXT</base:dataType>
+            <base:description>Bezirk</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>SchweizerInnen_Weiblich</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Frauen Schweizer</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>AuslaenderInnen_Weiblich</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Frauen Ausländer</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>SchweizerInnen_Maennlich</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Männer Schweizer</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>AuslaenderInnen_Maennlich</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Männer Ausländer</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>Total_SchweizerInnen</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Total Schweizer</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>Total_AuslaenderInnen</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Total Ausländer</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>Total_Maennlich</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Total Männer</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>Total_Weiblich</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Total Frauen</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>Total</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Total Bevölkerung</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <dataAvailableFrom>2024</dataAvailableFrom>
+        <issues>
+          <DatasetIssue>
+            <identifier>ch.so.bevoelkerung.gemeinde_geschlecht_2025</identifier>
+            <title>Wohnbevölkerung nach Gemeinde und Geschlecht (Schweizer/Ausländer) 2025</title>
+            <description>Ständige Wohnbevölkerung des Kantons Solothurn nach Gemeinde und Geschlecht, differenziert nach schweizerischer und ausländischer Staatsangehörigkeit (Männer/Frauen je Gruppe sowie Totale). Projektzweck: Kantonale Bevölkerungsstatistik als Grundlage für Planung, Berichterstattung und Verteilentscheide.</description>
+            <issueLabel>2025</issueLabel>
+            <isCurrentIssue>true</isCurrentIssue>
+            <publicationStatus>published</publicationStatus>
+            <accrualPeriodicity>annually</accrualPeriodicity>
+            <modified>2026-08-20</modified>
+            <temporalCoverage>
+              <ClosedTemporalCoverage>
+                <base:referenceDate>2025-12-31</base:referenceDate>
+              </ClosedTemporalCoverage>
+            </temporalCoverage>
+            <surveyMethod>Vollerhebung (Registerauswertung) aus dem harmonisierten Einwohnerregister des Kantons Solothurn (Abbild der Gemeinderegister). Stichtagsbestand. Beobachtungseinheit: Person (AHV-Nr.), aggregiert auf Gemeinde.</surveyMethod>
+            <dataAvailableFrom>2024</dataAvailableFrom>
+          </DatasetIssue>
+        </issues>
+      </DatasetSeries>
+    </Metadata>
+  </ili:datasection>
+</ili:transfer>

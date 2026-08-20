@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ili:transfer xmlns="http://www.interlis.ch/xtf/2.4/SO_AGI_DataCatalog_Datasheet_20260523" xmlns:base="http://www.interlis.ch/xtf/2.4/SO_AGI_DataCatalog_Base_20260529" xmlns:ili="http://www.interlis.ch/xtf/2.4/INTERLIS">
+  <ili:headersection>
+    <ili:models>
+      <ili:model>SO_AGI_DataCatalog_Datasheet_20260523</ili:model>
+      <ili:model>SO_AGI_DataCatalog_Base_20260529</ili:model>
+    </ili:models>
+    <ili:sender>datenblatt-editor</ili:sender>
+  </ili:headersection>
+  <ili:datasection>
+    <Metadata ili:bid="x1">
+      <DatasetSeries ili:tid="ch.so.fahrzeugbestand">
+        <identifier>ch.so.fahrzeugbestand</identifier>
+        <title>Fahrzeugbestand nach Fahrzeugkategorie und Gemeinde </title>
+        <description>Bestand der im Kanton Solothurn zugelassenen Fahrzeuge nach Fahrzeuggruppe (Leichte Motorwagen, Schwere Motorwagen, Anhänger, Landwirtschaftliche Fahrzeuge/Industrietraktoren, Motorräder, Klein-Motorräder, Gewerbefahrzeuge) und Fahrzeugart auf Gemeindeebene per Stichtag. Ausgewiesen werden pro Gemeinde und Fahrzeugkategorie zwei Grössen: anzahl_fahrzeuge (Anzahl der immatrikulierten Fahrzeuge; jedes Fahrzeug wird einzeln gezählt, auch wenn mehrere Fahrzeuge unter demselben Wechselschild eingelöst sind) und anzahl_ws (Anzahl der Zulassungen unter Berücksichtigung der Wechselschilder; Fahrzeuge, die sich ein Wechselschild teilen, werden nur einmal gezählt, d. h. die Zahl entspricht der Anzahl eingelöster Kontrollschilder). Bezirks- und Kantonswerte lassen sich durch Aggregation der Gemeindewerte herleiten. Zweck: Grundlage für Verkehrs-, Raum- und Umweltplanung, Statistik sowie öffentliche Information.</description>
+        <accessLevel>open</accessLevel>
+        <publicationStatus>published</publicationStatus>
+        <creatorRef>ch.so.mfk</creatorRef>
+        <contactPoint>
+          <base:ContactPoint>
+            <base:email>mailto:it-support@mfk.so.ch</base:email>
+          </base:ContactPoint>
+        </contactPoint>
+        <themes>Mobilitaet_und_Verkehr</themes>
+        <keywords>Fahrzeugbestand</keywords>
+        <keywords>Motorfahrzeuge</keywords>
+        <keywords>Zulassungen</keywords>
+        <keywords>Wechselschilder</keywords>
+        <keywords>MFK</keywords>
+        <keywords>Fahrzeugkategorien</keywords>
+        <keywords>Verkehr</keywords>
+        <accrualPeriodicity>annually</accrualPeriodicity>
+        <modified>2026-08-20</modified>
+        <temporalCoverage>
+          <ClosedTemporalCoverage>
+            <base:startDate>2025-01-01</base:startDate>
+            <base:endDate>2025-12-31</base:endDate>
+          </ClosedTemporalCoverage>
+        </temporalCoverage>
+        <surveyMethod>Vollerhebung aus dem Fahrzeugzulassungsregister der MFK Kanton Solothurn (administrative Registerdaten, Auszug per Stichtag). Zuordnung der Fahrzeuge zur Gemeinde über den Halterstandort (BFS-Gemeindenummer). Keine Stichprobe, keine Schätzwerte.</surveyMethod>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>GDENR</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>BFS-Gemeindenummer; massgeblich für die Zuordnung zur Gemeinde.</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>GDENAME</base:name>
+            <base:dataType>TEXT</base:dataType>
+            <base:description>BFS-Gemeindename</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>GDEBZNR</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>BFS-Bezirksnummer</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>GDEBZNA</base:name>
+            <base:dataType>TEXT</base:dataType>
+            <base:description>BFS-Bezirksname</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>GDEKT</base:name>
+            <base:dataType>TEXT</base:dataType>
+            <base:description>Kanton, im Datensatz SO.</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>FZ_GROUP</base:name>
+            <base:dataType>TEXT</base:dataType>
+            <base:description>Gruppierung der Fahrzeuge in sieben Gruppen: leichte Motorwagen, schwere Motorwagen, Anhänger, landwirtschaftliche Fahrzeuge/Industrietraktoren, Motorräder, Kleinmotorräder und Gewerbefahrzeuge.</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>FZ_GROUP_NA</base:name>
+            <base:dataType>TEXT</base:dataType>
+            <base:description>Name der Fahrzeuggruppe.</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>FZART_CD</base:name>
+            <base:dataType>TEXT</base:dataType>
+            <base:description>Code der Fahrzeugart nach Einteilung gemäss VTS.</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>FZART_NA</base:name>
+            <base:dataType>TEXT</base:dataType>
+            <base:description>Name der Fahrzeugart gemäss VTS.</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>Anzahl</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Anzahl der per Stichtag in der Gemeinde immatrikulierten Fahrzeuge je Fahrzeugkategorie. Jedes Fahrzeug wird einzeln gezählt, auch bei gemeinsam genutztem Wechselschild.</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>Anzahl ohne WS</base:name>
+            <base:dataType>TEXT</base:dataType>
+            <base:description>Anzahl der Zulassungen unter Berücksichtigung der Wechselschilder. Fahrzeuge mit gemeinsamem Wechselschild werden nur einmal gezählt; die Zahl entspricht damit der Anzahl eingelöster Kontrollschilder.</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <dataAvailableFrom>2025 (frühere Jahrgänge durch MFK zu prüfen/ergänzen)</dataAvailableFrom>
+        <furtherUses>Weitere Verwendungen: Kantonale Statistik, Verkehrs- und Umweltplanung; Vergleichbarkeit mit BFS-Fahrzeugstatistik (MOFIS/ASTRA). Verwendete Hilfsdaten: BFS-Gemeindenummern und Bezirkszuordnung (Gemeindestand 2025). so-ogd:weitereVerwendungen</furtherUses>
+        <issues>
+          <DatasetIssue>
+            <identifier>ch.so.fahrzeugbestand_2025</identifier>
+            <title>Fahrzeugbestand nach Fahrzeugkategorie und Gemeinde (2025)</title>
+            <description>Bestand der im Kanton Solothurn zugelassenen Fahrzeuge nach Fahrzeuggruppe (Leichte Motorwagen, Schwere Motorwagen, Anhänger, Landwirtschaftliche Fahrzeuge/Industrietraktoren, Motorräder, Klein-Motorräder, Gewerbefahrzeuge) und Fahrzeugart auf Gemeindeebene per Stichtag. Ausgewiesen werden pro Gemeinde und Fahrzeugkategorie zwei Grössen: anzahl_fahrzeuge (Anzahl der immatrikulierten Fahrzeuge; jedes Fahrzeug wird einzeln gezählt, auch wenn mehrere Fahrzeuge unter demselben Wechselschild eingelöst sind) und anzahl_ws (Anzahl der Zulassungen unter Berücksichtigung der Wechselschilder; Fahrzeuge, die sich ein Wechselschild teilen, werden nur einmal gezählt, d. h. die Zahl entspricht der Anzahl eingelöster Kontrollschilder). Bezirks- und Kantonswerte lassen sich durch Aggregation der Gemeindewerte herleiten. Zweck: Grundlage für Verkehrs-, Raum- und Umweltplanung, Statistik sowie öffentliche Information.</description>
+            <issueLabel>2025</issueLabel>
+            <isCurrentIssue>true</isCurrentIssue>
+            <publicationStatus>published</publicationStatus>
+            <accrualPeriodicity>annually</accrualPeriodicity>
+            <modified>2026-08-20</modified>
+            <temporalCoverage>
+              <ClosedTemporalCoverage>
+                <base:startDate>2025-01-01</base:startDate>
+                <base:endDate>2025-12-31</base:endDate>
+              </ClosedTemporalCoverage>
+            </temporalCoverage>
+            <surveyMethod>Vollerhebung aus dem Fahrzeugzulassungsregister der MFK Kanton Solothurn (administrative Registerdaten, Auszug per Stichtag). Zuordnung der Fahrzeuge zur Gemeinde über den Halterstandort (BFS-Gemeindenummer). Keine Stichprobe, keine Schätzwerte.</surveyMethod>
+            <dataAvailableFrom>2025 (frühere Jahrgänge durch MFK zu prüfen/ergänzen)</dataAvailableFrom>
+            <furtherUses>Weitere Verwendungen: Kantonale Statistik, Verkehrs- und Umweltplanung; Vergleichbarkeit mit BFS-Fahrzeugstatistik (MOFIS/ASTRA). Verwendete Hilfsdaten: BFS-Gemeindenummern und Bezirkszuordnung (Gemeindestand 2025). so-ogd:weitereVerwendungen</furtherUses>
+          </DatasetIssue>
+        </issues>
+      </DatasetSeries>
+    </Metadata>
+  </ili:datasection>
+</ili:transfer>
