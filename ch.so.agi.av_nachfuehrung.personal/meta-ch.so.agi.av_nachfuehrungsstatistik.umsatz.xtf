@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ili:transfer xmlns="http://www.interlis.ch/xtf/2.4/SO_AGI_DataCatalog_Datasheet_20260523" xmlns:base="http://www.interlis.ch/xtf/2.4/SO_AGI_DataCatalog_Base_20260529" xmlns:ili="http://www.interlis.ch/xtf/2.4/INTERLIS">
+  <ili:headersection>
+    <ili:models>
+      <ili:model>SO_AGI_DataCatalog_Datasheet_20260523</ili:model>
+      <ili:model>SO_AGI_DataCatalog_Base_20260529</ili:model>
+    </ili:models>
+    <ili:sender>datenblatt-editor</ili:sender>
+  </ili:headersection>
+  <ili:datasection>
+    <Metadata ili:bid="x1">
+      <Dataset ili:tid="ch.so.agi.av_nachfuehrungsstatistik.umsatz">
+        <identifier>ch.so.agi.av_nachfuehrungsstatistik.umsatz</identifier>
+        <title>Personalstatistik in der amtlichen Vermessung nach Ausbildung</title>
+        <description>Jährliche Anzahl Mitarbeitende in der amtlichen Vermessung nach Ausbildungs- und Qualifikationskategorie für den Zeitraum 1980 bis 2025. Die Datei wird laufend um das jeweils neueste Jahr ergänzt. Enthalten sind die Kategorien Ingenieur-Geometer, Geometerkandidat, Techniker HTL / FH / FA, Geomatiker, Lernende, Patentierter Ingenieur-Geometer und Ingenieur ETH.</description>
+        <accessLevel>open</accessLevel>
+        <publicationStatus>published</publicationStatus>
+        <creatorRef>ch.so.agi</creatorRef>
+        <contactPoint>
+          <base:ContactPoint>
+            <base:organizationUnit>Amt für Geoinformation</base:organizationUnit>
+            <base:email>mailto:agi@bd.so.ch</base:email>
+          </base:ContactPoint>
+        </contactPoint>
+        <themes>Arbeit_Erwerb</themes>
+        <keywords>Personalstatistik</keywords>
+        <keywords>Personalbestand</keywords>
+        <keywords>Ausbildung</keywords>
+        <keywords>Qualifikation</keywords>
+        <keywords>Mitarbeitende</keywords>
+        <keywords>Beschäftigte</keywords>
+        <keywords>Geomatiker</keywords>
+        <keywords>Ingenieur-Geometer</keywords>
+        <keywords>Techniker</keywords>
+        <keywords>Lernende</keywords>
+        <keywords>Amt für Geoinformation</keywords>
+        <keywords>Kanton Solothurn</keywords>
+        <keywords>Zeitreihe</keywords>
+        <accrualPeriodicity>annually</accrualPeriodicity>
+        <modified>2026-08-24</modified>
+        <temporalCoverage>
+          <ClosedTemporalCoverage>
+            <base:startDate>1980-01-01</base:startDate>
+            <base:endDate>2025-12-31</base:endDate>
+          </ClosedTemporalCoverage>
+        </temporalCoverage>
+        <surveyMethod>Die Zahlen werden von den Nachführungsgeometern in den Jahresberichten geliefert.</surveyMethod>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>jahr</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Kalenderjahr der Erhebung.</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>ausbildung</base:name>
+            <base:dataType>TEXT</base:dataType>
+            <base:description>Ausbildungs- oder Qualifikationskategorie der Mitarbeitenden.</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>anzahl_mitarbeitende</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Anzahl Mitarbeitende in der jeweiligen Ausbildungs- oder Qualifikationskategorie und im jeweiligen Jahr.</base:description>
+            <base:unit>Personen</base:unit>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <dataAvailableFrom>1980</dataAvailableFrom>
+      </Dataset>
+    </Metadata>
+  </ili:datasection>
+</ili:transfer>
