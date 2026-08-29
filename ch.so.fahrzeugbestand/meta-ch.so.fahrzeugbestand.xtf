@@ -120,8 +120,8 @@
         </attributes>
         <attributes>
           <base:DatasetAttribute>
-            <base:name>Anzahl ohne WS</base:name>
-            <base:dataType>TEXT</base:dataType>
+            <base:name>Anzahl_ohne_WS</base:name>
+            <base:dataType>INTEGER</base:dataType>
             <base:description>Anzahl der Zulassungen unter Berücksichtigung der Wechselschilder. Fahrzeuge mit gemeinsamem Wechselschild werden nur einmal gezählt; die Zahl entspricht damit der Anzahl eingelöster Kontrollschilder.</base:description>
             <base:mandatory>true</base:mandatory>
           </base:DatasetAttribute>

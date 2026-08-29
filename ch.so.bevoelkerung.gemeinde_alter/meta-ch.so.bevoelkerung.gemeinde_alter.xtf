@@ -9,8 +9,8 @@
   </ili:headersection>
   <ili:datasection>
     <Metadata ili:bid="x1">
-      <DatasetSeries ili:tid="ch.so.bevoelkerung.gemeinde-alter">
-        <identifier>ch.so.bevoelkerung.gemeinde-alter</identifier>
+      <DatasetSeries ili:tid="ch.so.bevoelkerung.gemeinde_alter">
+        <identifier>ch.so.bevoelkerung.gemeinde_alter</identifier>
         <title>Wohnbevölkerung nach Gemeinde, Geschlecht und Altersgruppen (inkl. Total Schweizer/Ausländer), Kanton Solothurn</title>
         <description>Ständige Wohnbevölkerung des Kantons Solothurn nach Gemeinde, mit Totalen nach Geschlecht (Männer/Frauen) und Staatsangehörigkeit (Schweizer/Ausländer) sowie nach Altersgruppen (0–19, 20–39, 40–64, 65–79, 80+). Ehemals «Eckdaten zur Wohnbevölkerung».
 Projektzweck: Kantonale Bevölkerungsstatistik als Grundlage für Planung, Berichterstattung und Verteilentscheide.</description>
