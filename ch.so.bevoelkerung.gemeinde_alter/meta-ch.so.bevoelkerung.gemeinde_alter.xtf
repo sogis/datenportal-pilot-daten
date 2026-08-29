@@ -148,7 +148,7 @@ Projektzweck: Kantonale Bevölkerungsstatistik als Grundlage für Planung, Beric
         <dataAvailableFrom>2024</dataAvailableFrom>
         <issues>
           <DatasetIssue>
-            <identifier>ch.so.bevoelkerung.gemeinde-alter_2025</identifier>
+            <identifier>ch.so.bevoelkerung.gemeinde_alter_2025</identifier>
             <title>Wohnbevölkerung nach Gemeinde, Geschlecht und Altersgruppen (inkl. Total Schweizer/Ausländer), Kanton Solothurn 2025</title>
             <issueLabel>2025</issueLabel>
             <isCurrentIssue>true</isCurrentIssue>
