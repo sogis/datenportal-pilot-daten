@@ -9,8 +9,8 @@
   </ili:headersection>
   <ili:datasection>
     <Metadata ili:bid="x1">
-      <Dataset ili:tid="ch.so.sk.abstimmungsresultate">
-        <identifier>ch.so.sk.abstimmungsresultate</identifier>
+      <Dataset ili:tid="ch.so.abstimmungsresultate">
+        <identifier>ch.so.abstimmungsresultate</identifier>
         <title>Abstimmungsresultate nach Gemeinde</title>
         <description>Resultate eidgenössischer und kantonaler Abstimmungen in den Gemeinden des Kantons Solothurn. Resultate kommunaler Abstimmungsvorlagen sind ausgeschlossen. Eine Zeile beschreibt eine Geschäftskomponente in einer Gemeinde an einem Abstimmungstag. Hauptvorlage, Gegenvorschlag und Stichfrage werden als separate, verknüpfbare Komponenten geführt. Enthalten sind Geschäftsangaben, Stimmberechtigte, Stimmrechtsausweise, Auszählstatus, Zeitstempel, Stimmbeteiligung sowie Stimmzettel- und Stimmenzahlen. Die CSV-Ausgaben der Hop-Pipeline werden je Abstimmungstag aus eCH-0252-v1-Lieferungen erstellt. Der Datensatz wird mit weiteren Lieferungen fortgeführt. Fehlende oder für den Geschäftstyp unzutreffende Werte bleiben leer und sind nicht mit dem Zahlenwert 0 gleichzusetzen. Wiederholte Angaben zu Stimmberechtigten und Stimmrechtsausweisen dürfen nicht über Geschäftskomponenten summiert werden.</description>
         <accessLevel>open</accessLevel>
