@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ili:transfer xmlns="http://www.interlis.ch/xtf/2.4/SO_AGI_DataCatalog_Datasheet_20260523" xmlns:base="http://www.interlis.ch/xtf/2.4/SO_AGI_DataCatalog_Base_20260529" xmlns:ili="http://www.interlis.ch/xtf/2.4/INTERLIS">
+  <ili:headersection>
+    <ili:models>
+      <ili:model>SO_AGI_DataCatalog_Datasheet_20260523</ili:model>
+      <ili:model>SO_AGI_DataCatalog_Base_20260529</ili:model>
+    </ili:models>
+    <ili:sender>datenblatt-editor</ili:sender>
+  </ili:headersection>
+  <ili:datasection>
+    <Metadata ili:bid="x1">
+      <Dataset ili:tid="ch.so.sk.abstimmungsresultate">
+        <identifier>ch.so.sk.abstimmungsresultate</identifier>
+        <title>Abstimmungsresultate nach Gemeinde</title>
+        <description>Resultate eidgenössischer und kantonaler Abstimmungen in den Gemeinden des Kantons Solothurn. Resultate kommunaler Abstimmungsvorlagen sind ausgeschlossen. Eine Zeile beschreibt eine Geschäftskomponente in einer Gemeinde an einem Abstimmungstag. Hauptvorlage, Gegenvorschlag und Stichfrage werden als separate, verknüpfbare Komponenten geführt. Enthalten sind Geschäftsangaben, Stimmberechtigte, Stimmrechtsausweise, Auszählstatus, Zeitstempel, Stimmbeteiligung sowie Stimmzettel- und Stimmenzahlen. Die CSV-Ausgaben der Hop-Pipeline werden je Abstimmungstag aus eCH-0252-v1-Lieferungen erstellt. Der Datensatz wird mit weiteren Lieferungen fortgeführt. Fehlende oder für den Geschäftstyp unzutreffende Werte bleiben leer und sind nicht mit dem Zahlenwert 0 gleichzusetzen. Wiederholte Angaben zu Stimmberechtigten und Stimmrechtsausweisen dürfen nicht über Geschäftskomponenten summiert werden.</description>
+        <accessLevel>open</accessLevel>
+        <publicationStatus>draft</publicationStatus>
+        <creatorRef>ch.so.sk</creatorRef>
+        <contactPoint>
+          <base:ContactPoint>
+            <base:organizationUnit>Staatskanzlei</base:organizationUnit>
+            <base:email>mailto:kanzlei@sk.so.ch</base:email>
+            <base:url>https://so.ch/verwaltung/staatskanzlei/</base:url>
+          </base:ContactPoint>
+        </contactPoint>
+        <themes>Politik</themes>
+        <keywords>Abstimmungen</keywords>
+        <keywords>Abstimmungsresultate</keywords>
+        <keywords>Volksabstimmungen</keywords>
+        <keywords>Gemeinden</keywords>
+        <keywords>Kanton Solothurn</keywords>
+        <keywords>Stimmbeteiligung</keywords>
+        <keywords>Stimmberechtigte</keywords>
+        <keywords>Hauptvorlage</keywords>
+        <keywords>Gegenvorschlag</keywords>
+        <keywords>Stichfrage</keywords>
+        <keywords>eCH-0252</keywords>
+        <accrualPeriodicity>asNeeded</accrualPeriodicity>
+        <modified>2026-09-30</modified>
+        <surveyMethod>Aufbereitung der gelieferten Abstimmungsresultate aus eCH-0252 Version 1 (voteBaseDelivery) durch die Hop-Pipeline. Berücksichtigt werden ausschliesslich Geschäfte mit dem Einflussbereichstyp CH (Bund) oder CT (Kanton); kommunale Geschäfte mit dem Einflussbereichstyp MU sind ausgeschlossen. Die Resultate dieser eidgenössischen und kantonalen Geschäfte werden weiterhin je Gemeinde-Auszählkreis (MU) mit den Geschäftsangaben verbunden und als flache CSV exportiert. Die Auswahl betrifft die Ebene des Geschäfts, nicht den Typ des Auszählkreises. Die Pipeline prüft Struktur, Schlüssel, Hauptgeschäft-Verweise und Stimmensummen. Deutsche Titel und gelieferte Einzelklassifikationen der Stimmberechtigten werden übernommen; Kreuzklassifikationen werden nicht aufsummiert. Bei Stichfragen werden die beiden Stimmenzahlen als Präferenz für Hauptvorlage beziehungsweise Gegenvorschlag ausgegeben. Fehlende optionale Werte bleiben leer. Die Ausgabe erfolgt je Abstimmungstag in UTF-8 ohne BOM mit Semikolon, Kopfzeile und Dezimalpunkt. Die Pflichtangabe pro Attribut bezeichnet eine Belegung in jeder Resultatzeile; bei nur bedingt belegten Stimmenfeldern ist sie false und die Bedingung steht in der Attributbeschreibung.</surveyMethod>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>abstimmungstag</base:name>
+            <base:dataType>DATE</base:dataType>
+            <base:description>Datum der Abstimmung im Format YYYY-MM-DD. Zusammen mit geschaeft_id und gemeinde_bfs_nr identifiziert es eine Resultatzeile.</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>geschaeft_id</base:name>
+            <base:dataType>TEXT</base:dataType>
+            <base:description>Identifikator der einzelnen Geschäftskomponente aus voteIdentification der Lieferung. Hauptvorlage, Gegenvorschlag und Stichfrage haben jeweils eine eigene ID. Die ID wiederholt sich über die beteiligten Gemeinden; eine zeitübergreifende Eindeutigkeit wird nicht vorausgesetzt.</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>hauptgeschaeft_id</base:name>
+            <base:dataType>TEXT</base:dataType>
+            <base:description>Verweis auf die geschaeft_id des zugehörigen Hauptgeschäfts aus mainVoteIdentification. Verknüpft insbesondere Gegenvorschlag und Stichfrage mit der Hauptvorlage. Leer, wenn die Lieferung keinen Hauptgeschäft-Verweis enthält.</base:description>
+            <base:mandatory>false</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>geschaeftsgruppe_id</base:name>
+            <base:dataType>TEXT</base:dataType>
+            <base:description>Gemeinsamer Identifikator zusammengehöriger Geschäftskomponenten: hauptgeschaeft_id, sofern vorhanden, andernfalls geschaeft_id. Für die Gruppierung über mehrere Abstimmungstage zusätzlich abstimmungstag verwenden.</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>bund_id</base:name>
+            <base:dataType>TEXT</base:dataType>
+            <base:description>Zusätzlicher Bundesidentifikator aus otherIdentification mit idName=idBund. Kann fehlen und bei mehreren Geschäftskomponenten vorkommen; deshalb kein eindeutiger Zeilenschlüssel. Wird unverändert als Text übernommen.</base:description>
+            <base:mandatory>false</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>ebene</base:name>
+            <base:dataType>TEXT</base:dataType>
+            <base:description>Föderale Ebene des Geschäfts: bund für CH (eidgenössische Abstimmung) oder kanton für CT (kantonale Abstimmung). Kommunale Geschäfte (MU) sind ausgeschlossen; gemeinde kommt als Wert nicht vor. Die Resultate beider zugelassenen Ebenen werden nach Gemeinden ausgewiesen.</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>einflussbereich_id</base:name>
+            <base:dataType>TEXT</base:dataType>
+            <base:description>Identifikator des politischen Einflussbereichs des Geschäfts aus domainOfInfluenceIdentification. Bezeichnet das Gebiet, für das die Vorlage gilt; nicht mit der Gemeinde des ausgezählten Resultats gleichzusetzen. Wird als Text übernommen.</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>titel</base:name>
+            <base:dataType>TEXT</base:dataType>
+            <base:description>Vollständiger deutscher Titel der Geschäftskomponente aus voteTitleInformation mit language=de.</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>kurztitel</base:name>
+            <base:dataType>TEXT</base:dataType>
+            <base:description>Deutscher Kurztitel der Geschäftskomponente aus voteTitleShort. Bleibt leer, wenn kein Kurztitel geliefert wurde.</base:description>
+            <base:mandatory>false</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>geschaeftstyp</base:name>
+            <base:dataType>TEXT</base:dataType>
+            <base:description>Art der Geschäftskomponente: vorlage für voteSubType=1, gegenvorschlag für 2 oder stichfrage für 3. Bestimmt, ob die Ja/Nein-Spalten oder die beiden Stichfrage-Spalten belegt sind.</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>gemeinde_bfs_nr</base:name>
+            <base:dataType>TEXT</base:dataType>
+            <base:description>BFS-Nummer der Gemeinde des Auszählkreises, übernommen aus countingCircleId eines Gemeinde-Auszählkreises (MU). Als Textidentifikator geführt; allfällige führende Nullen bleiben erhalten.</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>gemeinde_name</base:name>
+            <base:dataType>TEXT</base:dataType>
+            <base:description>Name der Gemeinde des Auszählkreises gemäss countingCircleName in der Lieferung.</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>stimmberechtigte</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Gesamtzahl der Stimmberechtigten für diese Geschäftskomponente und Gemeinde aus countOfVotersTotal. Kann sich je nach Geschäft beziehungsweise föderaler Ebene unterscheiden. Nicht über verschiedene Geschäfte summieren.</base:description>
+            <base:unit>Personen</base:unit>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>stimmberechtigte_schweizer</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Gelieferte Anzahl Stimmberechtigter der Kategorie Schweizer (voterType=1), ohne zusätzliche Unterteilung nach Geschlecht. Nur die entsprechende Einzelklassifikation wird übernommen; Kreuzklassifikationen werden nicht addiert. Leer, wenn diese Teilzahl fehlt.</base:description>
+            <base:unit>Personen</base:unit>
+            <base:mandatory>false</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>stimmberechtigte_auslandschweizer</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Gelieferte Anzahl stimmberechtigter Auslandschweizerinnen und Auslandschweizer (voterType=2), ohne zusätzliche Unterteilung nach Geschlecht. Nur die entsprechende Einzelklassifikation wird übernommen; Kreuzklassifikationen werden nicht addiert. Leer, wenn diese Teilzahl fehlt.</base:description>
+            <base:unit>Personen</base:unit>
+            <base:mandatory>false</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>stimmberechtigte_maennlich</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Gelieferte Anzahl männlicher Stimmberechtigter (sex=1), ohne zusätzliche Unterteilung nach voterType. Nicht zu den Teilzahlen nach Stimmberechtigtenkategorie addieren, da dieselben Personen nach einem anderen Merkmal gezählt werden. Leer, wenn diese Teilzahl fehlt.</base:description>
+            <base:unit>Personen</base:unit>
+            <base:mandatory>false</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>stimmberechtigte_weiblich</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Gelieferte Anzahl weiblicher Stimmberechtigter (sex=2), ohne zusätzliche Unterteilung nach voterType. Nicht zu den Teilzahlen nach Stimmberechtigtenkategorie addieren, da dieselben Personen nach einem anderen Merkmal gezählt werden. Leer, wenn diese Teilzahl fehlt.</base:description>
+            <base:unit>Personen</base:unit>
+            <base:mandatory>false</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>stimmrechtsausweise_urne</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Anzahl der bei der Urnenabstimmung eingegangenen Stimmrechtsausweise gemäss countOfVotingCardsReceivedInBallotbox. Zählt Ausweise, nicht Stimmzettel oder Ja/Nein-Stimmen. Leer, wenn nicht geliefert.</base:description>
+            <base:unit>Stimmrechtsausweise</base:unit>
+            <base:mandatory>false</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>stimmrechtsausweise_brieflich</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Anzahl der brieflich eingegangenen Stimmrechtsausweise gemäss countOfVotingCardsReceivedByMail. Zählt Ausweise, nicht Stimmzettel oder Ja/Nein-Stimmen. Leer, wenn nicht geliefert.</base:description>
+            <base:unit>Stimmrechtsausweise</base:unit>
+            <base:mandatory>false</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>vollstaendig_ausgezaehlt</base:name>
+            <base:dataType>BOOLEAN</base:dataType>
+            <base:description>Auszählstatus der Geschäftskomponente in der Gemeinde gemäss fullyCountedTrue: true bedeutet vollständig ausgezählt, false noch nicht vollständig ausgezählt. In der CSV als true beziehungsweise false ausgegeben. Der Auszählstatus ist nicht mit der Freigabe gleichzusetzen.</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>freigegeben_am</base:name>
+            <base:dataType>DATETIME</base:dataType>
+            <base:description>Gelieferter Zeitpunkt der Freigabe des Gemeinderesultats aus releasedTimeStamp. ISO-8601-Ausgabe als YYYY-MM-DDTHH:mm:ss+01:00 mit Umrechnung auf den festen Offset UTC+01:00. Leer, wenn kein Freigabezeitpunkt geliefert wurde.</base:description>
+            <base:mandatory>false</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>gesperrt_am</base:name>
+            <base:dataType>DATETIME</base:dataType>
+            <base:description>Gelieferter Zeitpunkt der Sperrung des Gemeinderesultats aus lockoutTimeStamp. ISO-8601-Ausgabe als YYYY-MM-DDTHH:mm:ss+01:00 mit Umrechnung auf den festen Offset UTC+01:00. Leer, wenn kein Sperrzeitpunkt geliefert wurde.</base:description>
+            <base:mandatory>false</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>stimmbeteiligung_prozent</base:name>
+            <base:dataType>DECIMAL</base:dataType>
+            <base:description>Stimmbeteiligung für die Geschäftskomponente und Gemeinde in Prozent, unverändert aus voterTurnout übernommen und nicht neu berechnet. Dezimalpunkt als Dezimaltrennzeichen; beispielsweise bedeutet 45.5 eine Beteiligung von 45,5 Prozent. Leer, wenn nicht geliefert.</base:description>
+            <base:unit>%</base:unit>
+            <base:mandatory>false</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>stimmzettel_eingegangen</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Anzahl eingegangener Stimmzettel für diese Geschäftskomponente und Gemeinde aus receivedVotes. Entspricht der Summe aus stimmzettel_ungueltig, stimmzettel_leer und stimmzettel_gueltig.</base:description>
+            <base:unit>Stimmzettel</base:unit>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>stimmzettel_ungueltig</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Anzahl als ungültig ausgewiesener Stimmzettel für diese Geschäftskomponente und Gemeinde aus receivedInvalidVotes.</base:description>
+            <base:unit>Stimmzettel</base:unit>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>stimmzettel_leer</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Anzahl als leer ausgewiesener Stimmzettel für diese Geschäftskomponente und Gemeinde aus receivedEmptyVotes. Separat von den gültigen Stimmzetteln und den stimmen_ohne_antwort geführt.</base:description>
+            <base:unit>Stimmzettel</base:unit>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>stimmzettel_gueltig</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Anzahl gültiger Stimmzettel für diese Geschäftskomponente und Gemeinde aus receivedValidVotes. Entspricht der Summe der beiden zum Geschäftstyp passenden Stimmenfelder und der Stimmen ohne Antwort. Nur für die interne Summenprüfung behandelt die Pipeline fehlende stimmen_ohne_antwort als null; die CSV bleibt an dieser Stelle leer.</base:description>
+            <base:unit>Stimmzettel</base:unit>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>ja_stimmen</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Anzahl Ja-Stimmen aus countOfYesVotes bei geschaeftstyp=vorlage oder gegenvorschlag. Für diese Typen zwingend belegt; bei stichfrage bleibt das Feld leer und bedeutet nicht null Ja-Stimmen.</base:description>
+            <base:unit>Stimmen</base:unit>
+            <base:mandatory>false</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>nein_stimmen</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Anzahl Nein-Stimmen aus countOfNoVotes bei geschaeftstyp=vorlage oder gegenvorschlag. Für diese Typen zwingend belegt; bei stichfrage bleibt das Feld leer und bedeutet nicht null Nein-Stimmen.</base:description>
+            <base:unit>Stimmen</base:unit>
+            <base:mandatory>false</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>stichfrage_hauptvorlage_stimmen</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Anzahl Stimmen zugunsten der Hauptvorlage bei der Stichfrage, übernommen aus countOfYesVotes bei geschaeftstyp=stichfrage. Für Stichfragen zwingend belegt; bei vorlage und gegenvorschlag leer. Diese Stimmen sind keine Ja-Stimmen zur Annahme der Hauptvorlage.</base:description>
+            <base:unit>Stimmen</base:unit>
+            <base:mandatory>false</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>stichfrage_gegenvorschlag_stimmen</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Anzahl Stimmen zugunsten des Gegenvorschlags bei der Stichfrage, übernommen aus countOfNoVotes bei geschaeftstyp=stichfrage. Für Stichfragen zwingend belegt; bei vorlage und gegenvorschlag leer. Diese Stimmen sind keine Nein-Stimmen zum Gegenvorschlag.</base:description>
+            <base:unit>Stimmen</base:unit>
+            <base:mandatory>false</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>stimmen_ohne_antwort</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Anzahl Stimmen ohne Antwort auf die betreffende Geschäftskomponente aus countOfVotesWithoutAnswer. Separat von stimmzettel_leer geführt und bei der Prüfung der gültigen Stimmzettel berücksichtigt. Ein nicht gelieferter Wert bleibt leer; nur ein ausdrücklich gelieferter Wert 0 wird als 0 ausgegeben.</base:description>
+            <base:unit>Stimmen</base:unit>
+            <base:mandatory>false</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <model>eCH-0252 Version 1; flaches CSV-Schema der Hop-Pipeline</model>
+      </Dataset>
+    </Metadata>
+  </ili:datasection>
+</ili:transfer>
