@@ -40,7 +40,7 @@ BFS_Nr;Gemeinde;Bezirk;Total;Total_Maennlich;Total_Weiblich;Total_SchweizerInnen
 2543;Bettlach;Bezirk Lebern;4952;2533;2419;3922;1030;863;1023;1817;873;376
 2544;Feldbrunnen-St. Niklaus;Bezirk Lebern;1069;544;525;933;136;165;226;394;194;90
 2545;Flumenthal;Bezirk Lebern;1027;505;522;873;154;169;262;382;147;67
-2546;Grenchen;Bezirk Lebern;19215;9768;9447;11225;7990;3460;5047;6498;2927;1281
+2546;Grenchen;Bezirk Lebern;19215;9768;9447;11225;7990;3460;5047;6500;2927;1281
 2547;Günsberg;Bezirk Lebern;1170;596;574;1089;81;196;225;449;224;76
 2548;Hubersdorf;Bezirk Lebern;728;361;367;667;61;157;105;284;156;26
 2549;Kammersrohr;Bezirk Lebern;31;16;15;29;2;4;8;7;8;4
@@ -104,4 +104,4 @@ BFS_Nr;Gemeinde;Bezirk;Total;Total_Maennlich;Total_Weiblich;Total_SchweizerInnen
 2525;Oekingen;Bezirk Wasseramt;888;445;443;831;57;185;180;317;150;56
 2530;Recherswil;Bezirk Wasseramt;2266;1107;1159;1929;337;454;509;782;404;117
 2532;Subingen;Bezirk Wasseramt;3312;1664;1648;2698;614;644;744;1231;529;164
-2534;Zuchwil;Bezirk Wasseramt;9660;4854;4806;5304;4356;1824;2859;3175;1284;517
+2534;Zuchwil;Bezirk Wasseramt;9660;4854;4806;5304;4356;1824;2859;3176;1284;517
