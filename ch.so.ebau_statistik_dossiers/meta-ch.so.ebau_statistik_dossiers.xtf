@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ili:transfer xmlns="http://www.interlis.ch/xtf/2.4/SO_AGI_DataCatalog_Datasheet_20260523" xmlns:base="http://www.interlis.ch/xtf/2.4/SO_AGI_DataCatalog_Base_20260529" xmlns:ili="http://www.interlis.ch/xtf/2.4/INTERLIS">
+  <ili:headersection>
+    <ili:models>
+      <ili:model>SO_AGI_DataCatalog_Datasheet_20260523</ili:model>
+      <ili:model>SO_AGI_DataCatalog_Base_20260529</ili:model>
+    </ili:models>
+    <ili:sender>datenblatt-editor</ili:sender>
+  </ili:headersection>
+  <ili:datasection>
+    <Metadata ili:bid="x1">
+      <Dataset ili:tid="ch.so.ebau_statistik_dossiers">
+        <identifier>ch.so.ebau_statistik_dossiers</identifier>
+        <title>Dossiers in eBau nach Monat</title>
+        <description>Monatliche Statistik zur Nutzung von eBau im Kanton Solothurn. Eine Zeile enthält für einen Berichtsmonat die Anzahl Gemeinden in eBau sowie die Anzahl der über eBau eingereichten Dossiers (Voranfragen, Baugesuche, Reklamegesuche, Erdwärmesonden sowie Meldungen). berichtsmonat ist als ISO-Datum mit dem ersten Kalendertag gespeichert und bezeichnet den gesamten Monat, nicht einen Erhebungsstichtag. Die Gemeindezahlen beschreiben den jeweiligen Monatsstand und dürfen nicht über mehrere Monate aufsummiert werden. Die Dossierzahlen beziehen sich auf die Einreichungen im jeweiligen Monat und sind keine kumulierten Werte. Der Datensatz wird als fortlaufende Monatsreihe geführt.</description>
+        <accessLevel>open</accessLevel>
+        <publicationStatus>published</publicationStatus>
+        <creatorRef>ch.so.agi</creatorRef>
+        <contactPoint>
+          <base:ContactPoint>
+            <base:organizationUnit>Amt für Geoinformation</base:organizationUnit>
+            <base:email>mailto:ebauso@bd.so.ch</base:email>
+          </base:ContactPoint>
+        </contactPoint>
+        <themes>Bau_und_Wohnungswesen</themes>
+        <keywords>eBau</keywords>
+        <keywords>Baubewilligungsverfahren</keywords>
+        <keywords>Dossiers</keywords>
+        <keywords>Gemeinden</keywords>
+        <keywords>Digitalisierung</keywords>
+        <accrualPeriodicity>monthly</accrualPeriodicity>
+        <modified>2026-10-02</modified>
+        <temporalCoverage>
+          <ClosedTemporalCoverage>
+            <base:startDate>2024-11-01</base:startDate>
+            <base:endDate>2026-09-30</base:endDate>
+          </ClosedTemporalCoverage>
+        </temporalCoverage>
+        <surveyMethod>Monatlich aggregierte Angaben zur Anzahl Gemeinden in eBau und zu den über eBau eingereichten Dossiers im Kanton Solothurn. Grundlage ist die gelieferte CSV-Monatsstatistik. Für die Bereitstellung werden die Spaltennamen vereinheitlicht und die ursprünglichen Angaben Monat und Jahr zur Datumsspalte berichtsmonat im Format YYYY-MM-01 zusammengeführt. Der erste Kalendertag bezeichnet den gesamten Berichtsmonat. Die beiden Zählwerte und die Reihenfolge der Monatszeilen bleiben unverändert. Die Ausgabe erfolgt in UTF-8 ohne BOM mit Semikolon als Trennzeichen und einer Kopfzeile. berichtsmonat bildet den eindeutigen Schlüssel einer Beobachtung.</surveyMethod>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>berichtsmonat</base:name>
+            <base:dataType>DATE</base:dataType>
+            <base:description>Berichtsmonat im ISO-8601-Format YYYY-MM-DD, beispielsweise 2024-11-01 für November 2024. Der Tag ist immer 01 und bezeichnet stellvertretend den gesamten Kalendermonat; er ist kein Erhebungsstichtag. berichtsmonat identifiziert eine Monatszeile eindeutig. Kalenderjahr und Monatsnummer können aus dem Datum abgeleitet werden.</base:description>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>anzahl_gemeinden_in_ebau</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Anzahl der Gemeinden im Kanton Solothurn, die im angegebenen Monat in eBau geführt werden, gemäss der gelieferten Monatsstatistik. Die Werte beschreiben den Stand pro Monat und dürfen nicht über mehrere Monate aufsummiert werden.</base:description>
+            <base:unit>Gemeinden</base:unit>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <attributes>
+          <base:DatasetAttribute>
+            <base:name>anzahl_ueber_ebau_eingereichte_dossiers</base:name>
+            <base:dataType>INTEGER</base:dataType>
+            <base:description>Anzahl der im angegebenen Monat über eBau eingereichten Dossiers, gemäss der gelieferten Monatsstatistik. Die Angabe ist eine Monatszahl und keine kumulierte Anzahl. Dossiers sind nicht mit erteilten Baubewilligungen gleichzusetzen.</base:description>
+            <base:unit>Dossiers</base:unit>
+            <base:mandatory>true</base:mandatory>
+          </base:DatasetAttribute>
+        </attributes>
+        <dataAvailableFrom>November 2024</dataAvailableFrom>
+      </Dataset>
+    </Metadata>
+  </ili:datasection>
+</ili:transfer>
