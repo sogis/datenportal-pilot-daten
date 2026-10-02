@@ -11,7 +11,7 @@
     <Metadata ili:bid="x1">
       <Dataset ili:tid="ch.so.ebau_statistik_dossiers">
         <identifier>ch.so.ebau_statistik_dossiers</identifier>
-        <title>Dossiers in eBau nach Monat</title>
+        <title>Dossiers in eBau pro Monat</title>
         <description>Monatliche Statistik zur Nutzung von eBau im Kanton Solothurn. Eine Zeile enthält für einen Berichtsmonat die Anzahl Gemeinden in eBau sowie die Anzahl der über eBau eingereichten Dossiers (Voranfragen, Baugesuche, Reklamegesuche, Erdwärmesonden sowie Meldungen). berichtsmonat ist als ISO-Datum mit dem ersten Kalendertag gespeichert und bezeichnet den gesamten Monat, nicht einen Erhebungsstichtag. Die Gemeindezahlen beschreiben den jeweiligen Monatsstand und dürfen nicht über mehrere Monate aufsummiert werden. Die Dossierzahlen beziehen sich auf die Einreichungen im jeweiligen Monat und sind keine kumulierten Werte. Der Datensatz wird als fortlaufende Monatsreihe geführt.</description>
         <accessLevel>open</accessLevel>
         <publicationStatus>published</publicationStatus>
