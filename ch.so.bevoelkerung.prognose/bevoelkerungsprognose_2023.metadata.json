@@ -1,0 +1,140 @@
+{
+  "titel": "Bevölkerungsprognose nach Gemeinde, Jahr und Szenario",
+  "prognoseversion": "2023",
+  "prognoseversion_hinweis": "Übergebene Versionskennung; für diese Lieferung aus den Quelldateinamen übernommen. Kein fachlich bestätigter Berechnungsstand.",
+  "beobachtung": "Eine Zeile je Gemeindecode, Jahr und Szenario innerhalb dieser Version.",
+  "primaerschluessel": [
+    "gemeindecode",
+    "jahr",
+    "szenario"
+  ],
+  "sortierung": [
+    "gemeindecode (numerisch)",
+    "jahr",
+    "szenario (tief, mittel, hoch)"
+  ],
+  "format": {
+    "medientyp": "text/csv",
+    "encoding": "UTF-8",
+    "bom": false,
+    "trennzeichen": ";",
+    "kopfzeilen": 1
+  },
+  "spalten": [
+    {
+      "name": "gemeindecode",
+      "datentyp": "string",
+      "beschreibung": "Gemeindecode aus gemcode; unveränderte Zeichenfolge."
+    },
+    {
+      "name": "gemeindename",
+      "datentyp": "string",
+      "beschreibung": "Gemeindename aus gemname."
+    },
+    {
+      "name": "bezirkcode",
+      "datentyp": "string",
+      "beschreibung": "Bezirkscode aus bez; unveränderte Zeichenfolge."
+    },
+    {
+      "name": "bezirkname",
+      "datentyp": "string",
+      "beschreibung": "Bezirksname aus bez_name."
+    },
+    {
+      "name": "ms_regioncode",
+      "datentyp": "string",
+      "beschreibung": "MS-Regionscode aus ms; unveränderte Zeichenfolge."
+    },
+    {
+      "name": "ms_regionname",
+      "datentyp": "string",
+      "beschreibung": "MS-Regionsname aus ms_name."
+    },
+    {
+      "name": "handlungsraum",
+      "datentyp": "string",
+      "beschreibung": "Räumliche Einordnung aus handlungsraum_name."
+    },
+    {
+      "name": "agglomeration",
+      "datentyp": "string",
+      "beschreibung": "Agglomerationszugehörigkeit aus agglo_name; keine agglo bleibt erhalten."
+    },
+    {
+      "name": "jahr",
+      "datentyp": "integer",
+      "beschreibung": "Jahr der gelieferten Bevölkerungsprognose."
+    },
+    {
+      "name": "szenario",
+      "datentyp": "string",
+      "beschreibung": "Szenario entsprechend dem zugeordneten Eingabeargument.",
+      "zulaessige_werte": [
+        "tief",
+        "mittel",
+        "hoch"
+      ]
+    },
+    {
+      "name": "bevoelkerung_untergrenze",
+      "datentyp": "integer",
+      "beschreibung": "Untere Grenze des gelieferten Streubereichs, ohne Rundung.",
+      "einheit": "Personen"
+    },
+    {
+      "name": "bevoelkerung_obergrenze",
+      "datentyp": "integer",
+      "beschreibung": "Obere Grenze des gelieferten Streubereichs, ohne Rundung.",
+      "einheit": "Personen"
+    }
+  ],
+  "zeitraum": {
+    "von": 2022,
+    "bis": 2050
+  },
+  "modellwert_enthalten": false,
+  "fachliche_hinweise": [
+    "Definition der Bevölkerung, Stichtag, Gemeindestand, Szenarioannahmen und Berechnung des Streubereichs sind in den Quelldateien nicht dokumentiert.",
+    "Alle gelieferten Jahre einschliesslich 2022 wurden übernommen; 2022 wird nicht als gemessener Istbestand ausgewiesen.",
+    "Die E-Mail sieht die Publikation des Streubereichs ohne modellierten Einzelwert vor."
+  ],
+  "quellen": [
+    {
+      "szenario": "tief",
+      "dateiname": "2023_tiefes_Szenario.csv",
+      "sha256": "60dab4caa9c11d3e0d6fa312200077ec447324515523d35a765e00be74ec8970",
+      "gemeindezeilen": 107
+    },
+    {
+      "szenario": "mittel",
+      "dateiname": "2023_mittleres_Szenario.csv",
+      "sha256": "610a26b3e6e3300b67ab4aea83cce136105d828e6d2c7b0f48233c0301f5a0e2",
+      "gemeindezeilen": 107
+    },
+    {
+      "szenario": "hoch",
+      "dateiname": "2023_hohes_Szenario.csv",
+      "sha256": "64fdc4bb54dd95df1d02998e4fb33a0a0a2d16cbffe434d454c284238f570a72",
+      "gemeindezeilen": 107
+    }
+  ],
+  "ausgabe": {
+    "dateiname": "bevoelkerungsprognose_2023.csv",
+    "sha256": "9a2031f42bcd42fd653c7b58ef5a73035224f7ae99b42e9e3488f34c4700d0a9"
+  },
+  "pruefung": {
+    "status": "bestanden",
+    "gemeinden": 107,
+    "jahre": 29,
+    "szenarien": 3,
+    "datenzeilen": 9309,
+    "gepruefte_grenzwerte": 18618,
+    "gepruefte_geografische_felder": 74472,
+    "fehlende_beobachtungen": 0,
+    "doppelte_beobachtungen": 0,
+    "alle_ausgabefelder_entsprechen_quellen": true,
+    "sortierung_geprueft": true,
+    "quellenstruktur_und_grenzen_geprueft": true
+  }
+}
