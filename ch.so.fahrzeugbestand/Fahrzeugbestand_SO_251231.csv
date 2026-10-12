@@ -1,4 +1,4 @@
-﻿BFS Gde-nummer;Gemeindename;Bezirks-nummer;Bezirksname;Kanton;FZ_GROUP;FZ_GROUP_NA;FZART_CD;FZART_NA;Anzahl;Anzahl ohne WS
+﻿GDENR;GDENAME;GDEBZNR;GDEBZNA;GDEKT;FZ_GROUP;FZ_GROUP_NA;FZART_CD;FZART_NA;Anzahl;Anzahl_ohne_WS
 2401;Egerkingen;1101;Gäu;SO;1;Leichte Motorwagen;01;Personenwagen;2706;2518
 2401;Egerkingen;1101;Gäu;SO;1;Leichte Motorwagen;10;Leichter Motorwagen;30;30
 2401;Egerkingen;1101;Gäu;SO;1;Leichte Motorwagen;30;Lieferwagen;312;304
