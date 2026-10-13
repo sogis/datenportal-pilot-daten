@@ -1,0 +1,75 @@
+jahr,raum_code,raum,herkunftsland,herkunft_typ,ankuenfte,logiernaechte,anteil_logiernaechte_prozent,aufenthaltsdauer_naechte,quelle,stand_export
+2025,SO,Kanton Solothurn,Total,total,239134,426680,100.00,1.78,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Schweiz,inland,147688,253886,59.50,1.72,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Ausland total,ausland_total,91446,172794,40.50,1.89,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Deutschland,land,30402,58661,13.75,1.93,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Frankreich,land,4564,7172,1.68,1.57,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Italien,land,4559,10204,2.39,2.24,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Österreich,land,3055,6729,1.58,2.20,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Vereinigtes Königreich,land,2386,4577,1.07,1.92,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Irland,land,281,616,0.14,2.19,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Niederlande,land,8909,10962,2.57,1.23,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Belgien,land,2838,3698,0.87,1.30,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Luxemburg,land,637,834,0.20,1.31,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Dänemark,land,693,1782,0.42,2.57,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Schweden,land,538,926,0.22,1.72,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Norwegen,land,200,350,0.08,1.75,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Finnland,land,352,674,0.16,1.91,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Spanien,land,1018,2145,0.50,2.11,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Portugal,land,317,749,0.18,2.36,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Griechenland,land,129,264,0.06,2.05,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Türkei,land,1359,2830,0.66,2.08,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Übriges Europa,land,564,1802,0.42,3.20,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Liechtenstein,land,350,594,0.14,1.70,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Island,land,14,42,0.01,3.00,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Polen,land,1125,6528,1.53,5.80,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Ungarn,land,377,1229,0.29,3.26,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Belarus,land,0,0,0.00,,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Bulgarien,land,91,158,0.04,1.74,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Malta,land,16,32,0.01,2.00,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Zypern,land,12,37,0.01,3.08,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Chile,land,20,57,0.01,2.85,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Vereinigte Staaten,land,2570,5868,1.38,2.28,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Kanada,land,262,505,0.12,1.93,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Mexiko,land,78,310,0.07,3.97,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Brasilien,land,199,536,0.13,2.69,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Argentinien,land,55,124,0.03,2.25,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Übriges Südamerika,land,56,96,0.02,1.71,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,"Übriges Zentralamerika, Karibik",land,60,101,0.02,1.68,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Ägypten,land,26,226,0.05,8.69,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Übriges Nordafrika,land,119,262,0.06,2.20,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Südafrika,land,38,84,0.02,2.21,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Übriges Afrika,land,134,220,0.05,1.64,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Bahrain,land,3,3,0.00,1.00,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Israel,land,177,362,0.08,2.05,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Indien,land,2958,7506,1.76,2.54,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Japan,land,169,425,0.10,2.51,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Übriges Süd- und Ostasien,land,504,733,0.17,1.45,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Katar,land,27,120,0.03,4.44,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Kuwait,land,18,32,0.01,1.78,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Australien,land,239,571,0.13,2.39,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,China,land,10986,16454,3.86,1.50,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Hongkong,land,63,168,0.04,2.67,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Indonesien,land,423,923,0.22,2.18,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Korea (Süd-),land,2423,2980,0.70,1.23,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Malaysia,land,1908,3015,0.71,1.58,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Philippinen,land,114,171,0.04,1.50,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,"Neuseeland, Ozeanien",land,71,111,0.03,1.56,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Singapur,land,81,237,0.06,2.93,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Oman,land,44,87,0.02,1.98,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Taiwan (Chinesisches Taipei),land,129,296,0.07,2.29,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Thailand,land,168,299,0.07,1.78,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Übriges Westasien,land,313,715,0.17,2.28,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Estland,land,46,95,0.02,2.07,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Lettland,land,42,66,0.02,1.57,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Litauen,land,77,141,0.03,1.83,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Saudi-Arabien,land,61,120,0.03,1.97,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Vereinigte Arabische Emirate,land,124,285,0.07,2.30,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Kroatien,land,133,419,0.10,3.15,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Rumänien,land,312,916,0.21,2.94,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Russland,land,116,330,0.08,2.84,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Slowakei,land,229,913,0.21,3.99,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Slowenien,land,149,367,0.09,2.46,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Tschechien,land,644,1371,0.32,2.13,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Ukraine,land,148,277,0.06,1.87,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02
+2025,SO,Kanton Solothurn,Serbien,land,144,302,0.07,2.10,"BFS, Beherbergungsstatistik HESTA (STAT-TAB px-x-1003020000_102)",2026-10-02

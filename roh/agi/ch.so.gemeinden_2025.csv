@@ -1,0 +1,107 @@
+T_Id;T_Ili_Tid;gemeindename;bfs_gemeindenummer;bezirksname;kantonsname
+76;f361c08b-3eb1-4bd9-a860-86c05edd2e1e;Kappel (SO);2580;Olten;Solothurn
+110;a33a5d21-9fba-4956-af92-a7001881bcbc;Hauenstein-Ifenthal;2491;Gösgen;Solothurn
+73;15333789-6950-46cc-8fb4-34d5bf55010e;Boningen;2571;Olten;Solothurn
+78;a4457123-eecd-4ac2-ae88-a35a850df44b;Wangen bei Olten;2586;Olten;Solothurn
+60;e7757db2-99cc-4239-a1bf-0d393a717a1a;Trimbach;2500;Gösgen;Solothurn
+117;9881e585-7a8f-4c00-af58-0caaa5b41e1f;Wisen (SO);2502;Gösgen;Solothurn
+77;7521ff64-7195-4e1e-a0cb-19eaf65b145c;Olten;2581;Olten;Solothurn
+112;b6158c7b-3bbb-4fcb-8d00-2fa6e710d245;Lostorf;2493;Gösgen;Solothurn
+116;27658ce7-5050-4cf6-9165-ac7155f364f8;Winznau;2501;Gösgen;Solothurn
+144;69829aa6-9e60-450f-a73b-3701c2ab91ff;Dulliken;2573;Olten;Solothurn
+115;39b13e1c-705a-460c-b77c-45a7b4c5701e;Stüsslingen;2499;Gösgen;Solothurn
+114;a6f62bb0-9120-4a9b-8950-09270e86e9dd;Obergösgen;2497;Gösgen;Solothurn
+111;2465d581-ded0-4513-84c5-760638e5974c;Kienberg;2492;Gösgen;Solothurn
+61;f220063a-5195-4545-8608-0674897412ff;Erlinsbach (SO);2503;Gösgen;Solothurn
+143;ff197814-9b12-4286-a324-efc36f0aff4c;Däniken;2572;Olten;Solothurn
+113;e3fb0cd3-968b-40cc-8158-c2fe246fb4d2;Niedergösgen;2495;Gösgen;Solothurn
+74;1227a703-82f9-4d83-9d2e-39df3b875894;Gretzenbach;2576;Olten;Solothurn
+145;61a94c9c-b08e-46cc-bf28-1f3fad312c51;Eppenberg-Wöschnau;2574;Olten;Solothurn
+148;b4bbfa3a-2af4-4aa2-bd11-0acc3c45e30e;Rickenbach (SO);2582;Olten;Solothurn
+150;90fef9cc-e71d-490b-9ef6-a6f49962b91c;Schönenwerd;2583;Olten;Solothurn
+151;86c6f7b6-c21a-4382-b87a-393882a83540;Starrkirch-Wil;2584;Olten;Solothurn
+152;31309f5f-8de5-4197-b708-3175a76cfb29;Walterswil (SO);2585;Olten;Solothurn
+95;ec4955cb-6aa9-4e24-b68c-0653fed5a4ac;Welschenrohr-Gänsbrunnen;2430;Thal;Solothurn
+58;fa3b9b2d-3ddf-439d-9e08-ac24b77ff0c1;Rodersdorf;2479;Dorneck;Solothurn
+80;b7e713e9-2265-4649-9c40-135c6ed49e3a;Bärschwil;2611;Thierstein;Solothurn
+106;7fec1265-85d8-41df-93f5-219e03f34844;Metzerlen-Mariastein;2477;Dorneck;Solothurn
+105;f2855e39-4721-4c9b-9493-21675778bde5;Hofstetten-Flüh;2476;Dorneck;Solothurn
+82;e443407c-e3f1-4300-9e7d-ed3198185b5d;Grindel;2617;Thierstein;Solothurn
+101;cf6b4722-f789-4e39-a5ae-e62d92807c02;Bättwil;2471;Dorneck;Solothurn
+109;9a7e0ddd-e90f-46a1-8e54-dd86f371a41e;Witterswil;2481;Dorneck;Solothurn
+92;daa4d7e7-a2ec-4972-9260-51b03248bf43;Herbetswil;2424;Thal;Solothurn
+132;e022f3e0-ed87-4e87-802e-0f229386d48f;Balm bei Günsberg;2541;Lebern;Solothurn
+81;c03f239f-dcf6-4a09-9424-61ac7c54c11b;Beinwil (SO);2612;Thierstein;Solothurn
+91;c157d066-1c30-423e-b5b4-b06c43f9de98;Aedermannsdorf;2421;Thal;Solothurn
+137;cb8284cb-e069-4ce9-a6c0-68fe8426d419;Günsberg;2547;Lebern;Solothurn
+83;220134dd-5829-4412-adb1-80755df10ca6;Meltingen;2620;Thierstein;Solothurn
+54;e7343629-6df0-408f-8388-c168b9e32b74;Mümliswil-Ramiswil;2428;Thal;Solothurn
+139;6491f19e-f929-4234-b110-07f739766692;Kammersrohr;2549;Lebern;Solothurn
+59;48c29270-ee09-47ba-8555-42a4bcde3975;Seewen;2480;Dorneck;Solothurn
+57;31c159ed-62d5-4025-bce5-758640885448;Dornach;2473;Dorneck;Solothurn
+94;df11c409-fce8-4556-a2d0-c90866b8bf3c;Matzendorf;2427;Thal;Solothurn
+104;fd891ca7-caf3-4df7-bd45-a858e0ae1ad6;Hochwald;2475;Dorneck;Solothurn
+93;9c9dee65-8ae2-49d4-998d-487c7e3a8ace;Laupersdorf;2426;Thal;Solothurn
+103;84a6e50c-cd77-451d-81c7-5093cfd52756;Gempen;2474;Dorneck;Solothurn
+102;5d0c16ec-f46a-475c-bbee-d5f5a4f6d086;Büren (SO);2472;Dorneck;Solothurn
+108;40544470-9ed6-4b7e-82f7-10507d61835a;Nuglar-St. Pantaleon;2478;Dorneck;Solothurn
+52;722637b0-a7b2-4bd6-aa32-a6d2dd54cc0e;Balsthal;2422;Thal;Solothurn
+90;3adb319e-7f57-4c21-a109-46dcd9db9497;Oensingen;2407;Gäu;Solothurn
+53;f5ae016a-4983-43b1-8605-0191aad03382;Holderbank (SO);2425;Thal;Solothurn
+89;ab6ed38a-481a-4d9f-ad60-10d7ed00f6fc;Oberbuchsiten;2406;Gäu;Solothurn
+87;2e99318f-57cc-4393-8254-9068fe57b3a6;Kestenholz;2403;Gäu;Solothurn
+50;736ed257-139f-42a2-85bb-3719d624711c;Niederbuchsiten;2405;Gäu;Solothurn
+51;680dd4c3-e91a-4a1c-8310-fa9014be2839;Wolfwil;2408;Gäu;Solothurn
+84;b269e2d3-839f-408d-8a30-ed334a43fbfc;Egerkingen;2401;Gäu;Solothurn
+88;7cce1758-938a-425f-9e23-bc20e46358a7;Neuendorf;2404;Gäu;Solothurn
+85;9764effd-bd7e-4ca8-a452-f69afb1e25c4;Härkingen;2402;Gäu;Solothurn
+75;ca971ed8-5925-40e8-9c37-312e7828fb3a;Gunzgen;2578;Olten;Solothurn
+146;5cbf2cf9-1365-46fb-b304-a79c3e5da208;Fulenbach;2575;Olten;Solothurn
+147;cd5b7efe-e798-4293-bfeb-4824420bf61b;Hägendorf;2579;Olten;Solothurn
+153;93c421e6-ff16-4f2f-be18-dfabf2610949;Breitenbach;2613;Thierstein;Solothurn
+154;2840e0b0-2b44-4777-b065-91603d4c8b3f;Büsserach;2614;Thierstein;Solothurn
+155;dd3cedd1-305a-4813-bbc7-8a5af90a0bda;Erschwil;2615;Thierstein;Solothurn
+156;245a476b-bdb1-40b6-ab95-06b78fab758f;Fehren;2616;Thierstein;Solothurn
+157;24d096b5-da2f-4fd4-9685-50530677ea8b;Himmelried;2618;Thierstein;Solothurn
+158;2935bb42-f7e5-4160-a1b5-ddefde5c33c5;Kleinlützel;2619;Thierstein;Solothurn
+159;542fd806-ff76-4b40-896b-0ac0d4e697bc;Nunningen;2621;Thierstein;Solothurn
+160;a8e4db70-ca3f-47fb-a4c5-3e8b99fa8ded;Zullwil;2622;Thierstein;Solothurn
+55;fd0e2b2c-100b-4957-b3f5-5a8189df0b43;Messen;2457;Bucheggberg;Solothurn
+98;ec9bd17a-2a86-478b-aaaf-cf4bef54636e;Schnottwil;2461;Bucheggberg;Solothurn
+96;5d8ccf3e-81de-4292-99cd-2a8601549ecf;Biezwil;2445;Bucheggberg;Solothurn
+56;820526b5-ed3a-4875-a880-869465847fd8;Buchegg;2465;Bucheggberg;Solothurn
+99;4ce41fcb-7ad2-4c4c-a400-097117a091fe;Unterramsern;2463;Bucheggberg;Solothurn
+97;e7b91294-d6f9-4ddf-ba62-0cc11a3f2a12;Lüterkofen-Ichertswil;2455;Bucheggberg;Solothurn
+62;18a93cf9-48c0-4173-8228-1dbe81e95b50;Aeschi (SO);2511;Wasseramt;Solothurn
+63;"0fa9eee0-11a9-43a6-939a-b9769a433069";Biberist;2513;Wasseramt;Solothurn
+66;30ec7224-fc5b-4317-9baa-f905c35164f0;Gerlafingen;2519;Wasseramt;Solothurn
+100;b74f70aa-9f7a-4d76-99ad-25fb71395016;Lüsslingen-Nennigkofen;2464;Bucheggberg;Solothurn
+67;d29f7521-07f2-4868-8b71-96d27be672c3;Hüniken;2524;Wasseramt;Solothurn
+72;991ff42e-079b-48d3-ba40-f51527dc64b5;Selzach;2556;Lebern;Solothurn
+64;f859aa22-4832-4ca8-997b-3524a98eb4d5;Bolken;2514;Wasseramt;Solothurn
+68;cb7d30af-9359-4689-927c-244036ee5627;Zuchwil;2534;Wasseramt;Solothurn
+79;b0d3a756-d7d1-4532-b945-ee9fe4a1c656;Solothurn;2601;Solothurn;Solothurn
+69;"040c78f8-a99b-41c4-b85f-ba2d58f0ea0d";Bellach;2542;Lebern;Solothurn
+70;3b4cf126-6f53-4533-b96f-cf730428d876;Langendorf;2550;Lebern;Solothurn
+71;5331fad0-b50a-47c7-8378-a808a32d29e6;Rüttenen;2555;Lebern;Solothurn
+118;aacee266-de22-4ec2-af97-83feeae52890;Deitingen;2516;Wasseramt;Solothurn
+119;701285fb-11c6-498b-a70b-8d12351a4bae;Derendingen;2517;Wasseramt;Solothurn
+120;b4c7c1ad-a19b-43a5-a5f7-040042d23302;Etziken;2518;Wasseramt;Solothurn
+121;"0c9b1e95-d22d-45ee-b189-99a6b7f068c1";Halten;2520;Wasseramt;Solothurn
+122;2966ed85-16cd-4916-8580-64fab36ed993;Horriwil;2523;Wasseramt;Solothurn
+123;8c243b49-ce55-4c92-ae76-302e424e0825;Kriegstetten;2525;Wasseramt;Solothurn
+124;e4c53891-9a9a-4e0c-926a-d3edb03f4a3d;Lohn-Ammannsegg;2526;Wasseramt;Solothurn
+125;50ed12df-e5fe-4027-84f4-146967a96dc7;Luterbach;2527;Wasseramt;Solothurn
+126;5f762059-59ed-4e55-8215-2429d2c6c249;Obergerlafingen;2528;Wasseramt;Solothurn
+127;ef2cf9c1-ccfe-45f5-a3a4-8523fa2865bc;Oekingen;2529;Wasseramt;Solothurn
+129;473dc3ba-63a2-49f3-a5ff-445387cc7a0a;Recherswil;2530;Wasseramt;Solothurn
+130;78c9330b-47ec-4721-8c2a-ca617236af4c;Subingen;2532;Wasseramt;Solothurn
+131;41c68bfd-cec2-4cc6-a495-ee041ce70436;Drei Höfe;2535;Wasseramt;Solothurn
+133;57ee5887-7468-408b-a522-0360c0472057;Bettlach;2543;Lebern;Solothurn
+134;9cb3c9cd-2924-404e-b951-0f3e32b97b17;Feldbrunnen-St. Niklaus;2544;Lebern;Solothurn
+135;59091239-941b-46e6-8b98-69f2a89105ff;Flumenthal;2545;Lebern;Solothurn
+136;eae75d89-0259-478f-a28a-997c65c7ad7e;Grenchen;2546;Lebern;Solothurn
+138;afc8f361-f746-4994-b2ef-9ee1df9977e0;Hubersdorf;2548;Lebern;Solothurn
+140;"0c12c4a1-0ac2-4306-8fc8-1cdd93bdd87b";Lommiswil;2551;Lebern;Solothurn
+141;3742547d-81e9-473d-a519-64dd3b400628;Oberdorf (SO);2553;Lebern;Solothurn
+142;a6c4aaa0-1d0c-44a1-8673-4128797a5ef6;Riedholz;2554;Lebern;Solothurn

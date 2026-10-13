@@ -1,0 +1,591 @@
+jahr,raum_ebene,bfs_nr,raum_id,raum,leer_total,leer_1zi,leer_2zi,leer_3zi,leer_4zi,leer_5zi,leer_6zi_plus,leer_efh,leer_mfh,leer_neubau,leer_altbau,leer_zu_vermieten,leer_zu_verkaufen,registerbasiert,gemeindestand,quelle,stand_export
+2021,Schweiz,,8100,Schweiz,71365,6666,12717,24029,18919,5731,3303,5940,65425,7066,64299,60775,10590,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Schweiz,,8100,Schweiz,61496,5825,11334,20716,15743,5029,2849,5329,56167,4863,56633,52556,8940,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Schweiz,,8100,Schweiz,54765,4930,9598,17492,14205,5177,3363,6124,48641,4131,50634,44213,10552,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Schweiz,,8100,Schweiz,51974,4387,8847,16108,13705,5294,3633,6822,45152,4210,47764,40423,11551,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Schweiz,,8100,Schweiz,48455,3993,8187,14664,12804,5090,3717,6797,41658,3959,44496,37194,11261,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Kanton,11,SO,Kanton Solothurn,4446,298,690,1662,1258,362,176,313,4133,290,4156,4088,358,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Kanton,11,SO,Kanton Solothurn,3798,232,665,1453,1028,286,134,315,3483,158,3640,3455,343,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Kanton,11,SO,Kanton Solothurn,3445,193,541,1247,977,330,157,405,3040,164,3281,3022,423,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Kanton,11,SO,Kanton Solothurn,3456,213,511,1209,929,388,206,479,2977,133,3323,2897,559,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Kanton,11,SO,Kanton Solothurn,3003,205,421,1016,839,333,189,448,2555,114,2889,2471,532,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Bezirk,1101,B_1101,Bezirk Gäu,261,24,30,92,88,20,7,11,250,6,255,247,14,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Bezirk,1101,B_1101,Bezirk Gäu,200,20,23,64,71,18,4,12,188,10,190,191,9,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Bezirk,1101,B_1101,Bezirk Gäu,164,14,19,50,60,14,7,11,153,6,158,147,17,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Bezirk,1101,B_1101,Bezirk Gäu,144,15,20,49,38,15,7,16,128,4,140,124,20,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Bezirk,1101,B_1101,Bezirk Gäu,147,19,23,44,37,15,9,14,133,6,141,123,24,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Bezirk,1102,B_1102,Bezirk Thal,278,31,50,71,79,31,16,36,242,0,278,253,25,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Bezirk,1102,B_1102,Bezirk Thal,269,24,40,79,78,34,14,30,239,9,260,254,15,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Bezirk,1102,B_1102,Bezirk Thal,246,14,30,75,80,35,12,37,209,14,232,201,45,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Bezirk,1102,B_1102,Bezirk Thal,217,15,33,55,73,33,8,32,185,13,204,171,46,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Bezirk,1102,B_1102,Bezirk Thal,219,17,31,61,62,30,18,39,180,10,209,168,51,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Bezirk,1103,B_1103,Bezirk Bucheggberg,31,1,3,7,13,3,4,5,26,0,31,26,5,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Bezirk,1103,B_1103,Bezirk Bucheggberg,39,0,10,7,10,8,4,8,31,3,36,38,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Bezirk,1103,B_1103,Bezirk Bucheggberg,38,1,6,10,13,5,3,10,28,3,35,34,4,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Bezirk,1103,B_1103,Bezirk Bucheggberg,19,0,1,8,3,5,2,7,12,0,19,14,5,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Bezirk,1103,B_1103,Bezirk Bucheggberg,44,3,7,8,14,8,4,14,30,3,41,35,9,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Bezirk,1104,B_1104,Bezirk Dorneck,278,13,44,84,69,43,25,58,220,33,245,212,66,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Bezirk,1104,B_1104,Bezirk Dorneck,218,4,49,71,55,23,16,43,175,8,210,156,62,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Bezirk,1104,B_1104,Bezirk Dorneck,171,6,26,53,43,24,19,47,124,4,167,118,53,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Bezirk,1104,B_1104,Bezirk Dorneck,154,10,19,22,40,35,28,62,92,27,127,89,65,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Bezirk,1104,B_1104,Bezirk Dorneck,181,24,20,37,37,35,28,67,114,15,166,106,75,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Bezirk,1105,B_1105,Bezirk Gösgen,556,44,90,163,163,58,38,46,510,48,508,496,60,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Bezirk,1105,B_1105,Bezirk Gösgen,457,39,79,162,118,31,28,60,397,12,445,426,31,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Bezirk,1105,B_1105,Bezirk Gösgen,492,18,73,161,145,69,26,102,390,15,477,421,71,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Bezirk,1105,B_1105,Bezirk Gösgen,437,17,55,146,125,61,33,96,341,22,415,332,105,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Bezirk,1105,B_1105,Bezirk Gösgen,386,9,45,128,126,50,28,71,315,13,373,325,61,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Bezirk,1106,B_1106,Bezirk Wasseramt,906,51,126,382,254,68,25,53,853,51,855,839,67,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Bezirk,1106,B_1106,Bezirk Wasseramt,626,21,95,259,174,59,18,58,568,39,587,551,75,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Bezirk,1106,B_1106,Bezirk Wasseramt,628,27,98,243,180,53,27,64,564,23,605,568,60,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Bezirk,1106,B_1106,Bezirk Wasseramt,623,22,88,265,162,58,28,69,554,11,612,554,69,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Bezirk,1106,B_1106,Bezirk Wasseramt,530,19,74,189,170,53,25,67,463,17,513,457,73,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Bezirk,1107,B_1107,Bezirk Lebern,692,37,108,280,182,61,24,42,650,58,634,647,45,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Bezirk,1107,B_1107,Bezirk Lebern,640,35,112,264,180,37,12,34,606,31,609,589,51,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Bezirk,1107,B_1107,Bezirk Lebern,542,27,93,210,148,43,21,46,496,31,511,479,63,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Bezirk,1107,B_1107,Bezirk Lebern,510,37,96,164,139,47,27,43,467,23,487,447,63,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Bezirk,1107,B_1107,Bezirk Lebern,483,35,78,176,126,51,17,54,429,29,454,420,63,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Bezirk,1108,B_1108,Bezirk Olten,1125,73,192,450,320,59,31,38,1087,87,1038,1080,45,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Bezirk,1108,B_1108,Bezirk Olten,1054,68,219,423,267,55,22,36,1018,28,1026,997,57,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Bezirk,1108,B_1108,Bezirk Olten,825,53,158,303,224,55,32,68,757,41,784,755,70,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Bezirk,1108,B_1108,Bezirk Olten,1013,74,154,367,264,99,55,114,899,12,1001,917,96,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Bezirk,1108,B_1108,Bezirk Olten,724,52,101,280,191,65,35,72,652,7,717,619,105,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Bezirk,1109,B_1109,Bezirk Solothurn,116,10,19,60,23,4,0,0,116,0,116,115,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Bezirk,1109,B_1109,Bezirk Solothurn,111,10,18,53,28,0,2,1,110,0,111,103,8,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Bezirk,1109,B_1109,Bezirk Solothurn,168,18,25,76,42,7,0,0,168,0,168,166,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Bezirk,1109,B_1109,Bezirk Solothurn,190,17,30,86,41,10,6,10,180,5,185,154,36,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Bezirk,1109,B_1109,Bezirk Solothurn,125,9,17,50,34,7,8,10,115,10,115,97,28,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Bezirk,1110,B_1110,Bezirk Thierstein,203,14,28,73,67,15,6,24,179,7,196,173,30,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Bezirk,1110,B_1110,Bezirk Thierstein,184,11,20,71,47,21,14,33,151,18,166,150,34,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Bezirk,1110,B_1110,Bezirk Thierstein,171,15,13,66,42,25,10,20,151,27,144,133,38,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Bezirk,1110,B_1110,Bezirk Thierstein,149,6,15,47,44,25,12,30,119,16,133,95,54,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Bezirk,1110,B_1110,Bezirk Thierstein,164,18,25,43,42,19,17,40,124,4,160,121,43,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2401,2401,Egerkingen,39,7,3,11,15,3,0,1,38,0,39,38,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2401,2401,Egerkingen,45,5,5,18,12,4,1,2,43,1,44,42,3,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2401,2401,Egerkingen,23,1,1,7,12,1,1,1,22,0,23,19,4,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2401,2401,Egerkingen,15,0,2,6,6,0,1,2,13,0,15,11,4,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2401,2401,Egerkingen,22,1,4,8,8,1,0,0,22,0,22,21,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2402,2402,Härkingen,14,2,4,2,6,0,0,1,13,0,14,14,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2402,2402,Härkingen,15,2,3,3,5,2,0,0,15,0,15,15,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2402,2402,Härkingen,12,0,1,5,6,0,0,0,12,1,11,12,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2402,2402,Härkingen,8,0,2,3,2,0,1,1,7,0,8,7,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2402,2402,Härkingen,7,0,1,3,3,0,0,1,6,0,7,5,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2403,2403,Kestenholz,7,0,2,2,2,1,0,0,7,0,7,7,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2403,2403,Kestenholz,10,1,0,4,4,1,0,0,10,0,10,10,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2403,2403,Kestenholz,16,3,3,6,4,0,0,2,14,0,16,16,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2403,2403,Kestenholz,11,2,3,4,1,1,0,0,11,0,11,11,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2403,2403,Kestenholz,4,0,0,0,4,0,0,2,2,0,4,3,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2404,2404,Neuendorf,73,5,9,33,18,5,3,2,71,5,68,73,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2404,2404,Neuendorf,49,6,6,21,11,2,3,1,48,1,48,48,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2404,2404,Neuendorf,45,4,9,15,12,4,1,0,45,4,41,45,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2404,2404,Neuendorf,28,4,4,10,7,3,0,0,28,0,28,28,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2404,2404,Neuendorf,29,4,6,10,4,4,1,0,29,0,29,27,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2405,2405,Niederbuchsiten,16,0,2,8,6,0,0,0,16,0,16,16,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2405,2405,Niederbuchsiten,14,0,4,2,8,0,0,0,14,0,14,14,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2405,2405,Niederbuchsiten,19,0,2,5,9,0,3,3,16,0,19,13,6,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2405,2405,Niederbuchsiten,20,1,1,7,6,2,3,6,14,0,20,19,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2405,2405,Niederbuchsiten,12,1,0,4,5,2,0,1,11,0,12,11,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2406,2406,Oberbuchsiten,21,0,2,4,11,4,0,1,20,0,21,19,2,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2406,2406,Oberbuchsiten,17,1,3,2,8,3,0,1,16,0,17,17,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2406,2406,Oberbuchsiten,16,3,1,4,5,3,0,0,16,0,16,16,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2406,2406,Oberbuchsiten,10,0,2,3,3,1,1,1,9,0,10,9,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2406,2406,Oberbuchsiten,15,2,5,4,2,2,0,1,14,0,15,13,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2407,2407,Oensingen,80,10,3,30,28,6,3,5,75,1,79,69,11,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2407,2407,Oensingen,41,5,0,12,19,5,0,7,34,8,33,36,5,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2407,2407,Oensingen,31,3,2,8,11,5,2,5,26,1,30,24,7,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2407,2407,Oensingen,47,7,4,15,12,8,1,6,41,4,43,34,13,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2407,2407,Oensingen,39,10,3,10,9,3,4,7,32,1,38,30,9,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2408,2408,Wolfwil,11,0,5,2,2,1,1,1,10,0,11,11,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2408,2408,Wolfwil,9,0,2,2,4,1,0,1,8,0,9,9,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2408,2408,Wolfwil,2,0,0,0,1,1,0,0,2,0,2,2,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2408,2408,Wolfwil,5,1,2,1,1,0,0,0,5,0,5,5,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2408,2408,Wolfwil,19,1,4,5,2,3,4,2,17,5,14,13,6,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2421,2421,Aedermannsdorf,3,0,1,1,1,0,0,0,3,0,3,3,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2421,2421,Aedermannsdorf,1,0,0,1,0,0,0,0,1,0,1,1,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2421,2421,Aedermannsdorf,3,0,0,1,1,1,0,1,2,0,3,3,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2421,2421,Aedermannsdorf,1,0,1,0,0,0,0,0,1,0,1,1,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2421,2421,Aedermannsdorf,5,0,0,2,3,0,0,0,5,0,5,2,3,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2422,2422,Balsthal,130,19,25,38,32,9,7,10,120,0,130,128,2,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2422,2422,Balsthal,128,17,14,44,32,13,8,14,114,0,128,128,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2422,2422,Balsthal,115,7,14,45,33,10,6,16,99,10,105,110,5,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2422,2422,Balsthal,102,8,11,32,34,13,4,13,89,0,102,97,5,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2422,2422,Balsthal,111,11,12,36,32,12,8,13,98,0,111,105,6,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2424,2424,Herbetswil,7,2,1,1,3,0,0,0,7,0,7,7,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2424,2424,Herbetswil,8,1,1,2,3,1,0,2,6,0,8,6,2,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2424,2424,Herbetswil,4,1,0,1,2,0,0,1,3,0,4,3,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2424,2424,Herbetswil,17,1,0,2,10,3,1,3,14,12,5,3,14,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2424,2424,Herbetswil,15,1,3,5,6,0,0,0,15,10,5,8,7,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2425,2425,Holderbank (SO),12,1,2,3,1,2,3,5,7,0,12,7,5,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2425,2425,Holderbank (SO),18,2,5,5,2,4,0,0,18,0,18,18,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2425,2425,Holderbank (SO),14,2,2,2,2,4,2,6,8,0,14,8,6,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2425,2425,Holderbank (SO),9,2,3,1,3,0,0,0,9,0,9,9,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2425,2425,Holderbank (SO),12,1,1,6,2,1,1,4,8,0,12,8,4,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2426,2426,Laupersdorf,15,0,1,2,8,4,0,4,11,0,15,10,5,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2426,2426,Laupersdorf,19,0,1,4,9,4,1,2,17,0,19,16,3,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2426,2426,Laupersdorf,26,0,6,6,9,5,0,6,20,2,24,21,5,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2426,2426,Laupersdorf,23,0,4,6,7,5,1,7,16,0,23,14,9,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2426,2426,Laupersdorf,15,0,4,5,5,1,0,2,13,0,15,10,5,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2427,2427,Matzendorf,35,0,6,11,10,6,2,10,25,0,35,29,6,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2427,2427,Matzendorf,27,0,9,7,6,3,2,2,25,0,27,26,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2427,2427,Matzendorf,14,0,1,5,5,3,0,2,12,0,14,7,7,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2427,2427,Matzendorf,9,0,2,2,4,1,0,2,7,0,9,5,4,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2427,2427,Matzendorf,12,0,3,0,3,4,2,5,7,0,12,7,5,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2428,2428,Mümliswil-Ramiswil,57,6,11,12,16,8,4,6,51,0,57,50,7,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2428,2428,Mümliswil-Ramiswil,46,3,5,11,17,7,3,9,37,0,46,38,8,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2428,2428,Mümliswil-Ramiswil,47,4,4,12,15,11,1,1,46,0,47,32,15,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2428,2428,Mümliswil-Ramiswil,37,2,8,9,7,9,2,7,30,1,36,23,14,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2428,2428,Mümliswil-Ramiswil,32,4,7,7,5,7,2,7,25,0,32,23,9,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2430,2430,Welschenrohr-Gänsbrunnen,19,3,3,3,8,2,0,1,18,0,19,19,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2430,2430,Welschenrohr-Gänsbrunnen,22,1,5,5,9,2,0,1,21,9,13,21,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2430,2430,Welschenrohr-Gänsbrunnen,23,0,3,3,13,1,3,4,19,2,21,17,6,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2430,2430,Welschenrohr-Gänsbrunnen,19,2,4,3,8,2,0,0,19,0,19,19,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2430,2430,Welschenrohr-Gänsbrunnen,17,0,1,0,6,5,5,8,9,0,17,5,12,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2445,2445,Biezwil,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2445,2445,Biezwil,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2445,2445,Biezwil,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2445,2445,Biezwil,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2445,2445,Biezwil,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2455,2455,Lüterkofen-Ichertswil,3,0,1,0,1,0,1,1,2,0,3,2,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2455,2455,Lüterkofen-Ichertswil,3,0,1,0,1,0,1,0,3,0,3,3,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2455,2455,Lüterkofen-Ichertswil,3,0,0,0,2,0,1,2,1,0,3,1,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2455,2455,Lüterkofen-Ichertswil,4,0,1,2,0,1,0,1,3,0,4,4,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2455,2455,Lüterkofen-Ichertswil,10,0,2,3,1,2,2,5,5,0,10,9,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2457,2457,Messen,12,1,1,3,6,0,1,2,10,0,12,12,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2457,2457,Messen,7,0,0,1,3,2,1,5,2,0,7,7,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2457,2457,Messen,12,0,0,2,5,4,1,6,6,0,12,12,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2457,2457,Messen,6,0,0,4,1,0,1,1,5,0,6,6,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2457,2457,Messen,6,0,0,2,3,0,1,1,5,0,6,6,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2461,2461,Schnottwil,8,0,1,2,1,2,2,1,7,0,8,7,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2461,2461,Schnottwil,16,0,5,3,4,3,1,0,16,3,13,16,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2461,2461,Schnottwil,7,0,2,1,4,0,0,0,7,0,7,7,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2461,2461,Schnottwil,5,0,0,0,2,3,0,3,2,0,5,2,3,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2461,2461,Schnottwil,12,0,1,1,5,5,0,5,7,1,11,7,5,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2463,2463,Unterramsern,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2463,2463,Unterramsern,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2463,2463,Unterramsern,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2463,2463,Unterramsern,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2463,2463,Unterramsern,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2464,2464,Lüsslingen-Nennigkofen,1,0,0,1,0,0,0,0,1,0,1,1,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2464,2464,Lüsslingen-Nennigkofen,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2464,2464,Lüsslingen-Nennigkofen,3,0,2,1,0,0,0,0,3,2,1,3,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2464,2464,Lüsslingen-Nennigkofen,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2464,2464,Lüsslingen-Nennigkofen,4,2,1,0,1,0,0,0,4,0,4,4,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2465,2465,Buchegg,7,0,0,1,5,1,0,1,6,0,7,4,3,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2465,2465,Buchegg,13,0,4,3,2,3,1,3,10,0,13,12,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2465,2465,Buchegg,13,1,2,6,2,1,1,2,11,1,12,11,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2465,2465,Buchegg,4,0,0,2,0,1,1,2,2,0,4,2,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2465,2465,Buchegg,12,1,3,2,4,1,1,3,9,2,10,9,3,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2471,2471,Bättwil,10,0,1,5,3,1,0,0,10,0,10,9,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2471,2471,Bättwil,8,0,2,1,4,1,0,3,5,0,8,5,3,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2471,2471,Bättwil,4,1,0,1,1,1,0,1,3,0,4,3,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2471,2471,Bättwil,7,0,0,0,1,6,0,6,1,5,2,2,5,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2471,2471,Bättwil,10,0,1,1,4,2,2,8,2,2,8,2,8,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2472,2472,Büren (SO),23,2,6,5,3,3,4,7,16,0,23,18,5,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2472,2472,Büren (SO),13,1,4,3,5,0,0,2,11,0,13,13,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2472,2472,Büren (SO),20,2,6,5,4,0,3,1,19,0,20,19,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2472,2472,Büren (SO),22,3,4,5,7,2,1,2,20,0,22,18,4,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2472,2472,Büren (SO),11,2,3,1,4,1,0,2,9,0,11,9,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2473,2473,Dornach,72,3,10,28,22,6,3,7,65,0,72,63,9,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2473,2473,Dornach,41,1,11,15,13,1,0,0,41,0,41,38,3,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2473,2473,Dornach,41,0,7,21,10,2,1,0,41,0,41,38,3,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2473,2473,Dornach,50,3,3,8,15,7,14,16,34,0,50,29,21,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2473,2473,Dornach,75,19,6,22,13,5,10,13,62,0,75,55,20,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2474,2474,Gempen,15,2,1,6,2,2,2,2,13,0,15,13,2,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2474,2474,Gempen,11,0,0,5,4,1,1,1,10,0,11,11,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2474,2474,Gempen,11,0,0,3,3,3,2,4,7,0,11,7,4,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2474,2474,Gempen,10,0,1,1,5,2,1,4,6,10,0,6,4,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2474,2474,Gempen,8,1,0,2,3,2,0,2,6,0,8,6,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2475,2475,Hochwald,10,0,2,0,3,4,1,5,5,0,10,5,5,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2475,2475,Hochwald,11,0,2,1,4,3,1,6,5,0,11,5,6,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2475,2475,Hochwald,14,2,0,0,7,4,1,9,5,0,14,9,5,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2475,2475,Hochwald,15,2,3,1,3,5,1,7,8,3,12,11,4,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2475,2475,Hochwald,10,2,1,0,2,5,0,3,7,0,10,5,5,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2476,2476,Hofstetten-Flüh,83,2,8,25,24,14,10,21,62,19,64,56,27,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2476,2476,Hofstetten-Flüh,43,1,7,11,10,7,7,18,25,7,36,18,25,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2476,2476,Hofstetten-Flüh,38,1,5,9,9,7,7,18,20,4,34,16,22,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2476,2476,Hofstetten-Flüh,27,1,3,1,7,7,8,20,7,8,19,7,20,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2476,2476,Hofstetten-Flüh,39,0,6,4,3,14,12,25,14,9,30,15,24,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2477,2477,Metzerlen-Mariastein,8,0,2,3,2,1,0,1,7,0,8,7,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2477,2477,Metzerlen-Mariastein,13,1,4,2,3,1,2,3,10,0,13,10,3,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2477,2477,Metzerlen-Mariastein,9,0,2,2,1,2,2,3,6,0,9,6,3,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2477,2477,Metzerlen-Mariastein,6,0,2,2,0,1,1,2,4,0,6,4,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2477,2477,Metzerlen-Mariastein,6,0,2,0,2,2,0,4,2,0,6,2,4,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2478,2478,Nuglar-St. Pantaleon,8,3,0,1,1,2,1,2,6,0,8,2,6,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2478,2478,Nuglar-St. Pantaleon,4,0,1,0,0,2,1,2,2,0,4,2,2,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2478,2478,Nuglar-St. Pantaleon,9,0,0,2,3,2,2,5,4,0,9,4,5,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2478,2478,Nuglar-St. Pantaleon,3,0,0,0,0,2,1,3,0,0,3,1,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2478,2478,Nuglar-St. Pantaleon,5,0,0,0,2,1,2,3,2,0,5,2,3,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2479,2479,Rodersdorf,10,1,3,3,2,1,0,1,9,0,10,10,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2479,2479,Rodersdorf,25,0,7,8,4,5,1,2,23,0,25,14,11,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2479,2479,Rodersdorf,21,0,6,7,4,3,1,3,18,0,21,12,9,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2479,2479,Rodersdorf,10,0,3,2,2,2,1,1,9,1,9,8,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2479,2479,Rodersdorf,9,0,1,3,3,1,1,4,5,3,6,5,4,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2480,2480,Seewen,23,0,10,4,4,5,0,6,17,2,21,17,6,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2480,2480,Seewen,43,0,10,22,8,2,1,3,40,1,42,37,6,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2480,2480,Seewen,4,0,0,3,1,0,0,3,1,0,4,4,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2480,2480,Seewen,4,1,0,2,0,1,0,1,3,0,4,3,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2480,2480,Seewen,5,0,0,2,0,2,1,3,2,0,5,2,3,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2481,2481,Witterswil,16,0,1,4,3,4,4,6,10,12,4,12,4,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2481,2481,Witterswil,6,0,1,3,0,0,2,3,3,0,6,3,3,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2481,2481,Witterswil,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2481,2481,Witterswil,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2481,2481,Witterswil,3,0,0,2,1,0,0,0,3,1,2,3,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2491,2491,Hauenstein-Ifenthal,5,0,1,0,0,0,4,4,1,0,5,3,2,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2491,2491,Hauenstein-Ifenthal,3,0,1,1,1,0,0,0,3,0,3,3,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2491,2491,Hauenstein-Ifenthal,3,0,1,1,1,0,0,1,2,0,3,2,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2491,2491,Hauenstein-Ifenthal,3,0,1,1,1,0,0,1,2,0,3,2,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2491,2491,Hauenstein-Ifenthal,1,0,0,0,0,0,1,1,0,0,1,0,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2492,2492,Kienberg,2,0,0,0,2,0,0,0,2,0,2,2,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2492,2492,Kienberg,2,0,0,1,0,1,0,1,1,0,2,1,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2492,2492,Kienberg,3,0,1,0,0,2,0,2,1,2,1,1,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2492,2492,Kienberg,1,0,0,0,1,0,0,1,0,0,1,1,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2492,2492,Kienberg,4,0,0,0,0,3,1,1,3,2,2,1,3,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2493,2493,Lostorf,25,2,3,2,9,5,4,10,15,0,25,15,10,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2493,2493,Lostorf,32,6,5,4,12,0,5,10,22,0,32,22,10,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2493,2493,Lostorf,37,3,6,9,6,6,7,10,27,2,35,24,13,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2493,2493,Lostorf,39,1,2,12,12,8,4,6,33,3,36,20,19,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2493,2493,Lostorf,67,4,11,14,19,6,13,21,46,3,64,44,23,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2495,2495,Niedergösgen,63,2,11,18,25,5,2,8,55,28,35,43,20,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2495,2495,Niedergösgen,48,6,9,17,12,3,1,1,47,4,44,46,2,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2495,2495,Niedergösgen,52,3,9,12,16,9,3,7,45,0,52,34,18,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2495,2495,Niedergösgen,59,5,8,16,15,6,9,9,50,8,51,32,27,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2495,2495,Niedergösgen,19,1,0,4,11,2,1,4,15,0,19,9,10,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2497,2497,Obergösgen,39,1,4,11,14,7,2,0,39,5,34,33,6,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2497,2497,Obergösgen,25,2,1,7,8,4,3,3,22,0,25,20,5,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2497,2497,Obergösgen,18,0,4,3,6,4,1,0,18,0,18,13,5,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2497,2497,Obergösgen,25,1,2,6,5,9,2,1,24,0,25,15,10,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2497,2497,Obergösgen,18,0,0,5,7,6,0,1,17,0,18,11,7,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2499,2499,Stüsslingen,21,0,2,6,6,4,3,6,15,0,21,15,6,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2499,2499,Stüsslingen,7,0,1,1,3,2,0,1,6,0,7,7,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2499,2499,Stüsslingen,6,0,1,1,1,1,2,3,3,0,6,3,3,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2499,2499,Stüsslingen,7,0,0,0,1,2,4,1,6,1,6,1,6,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2499,2499,Stüsslingen,12,1,1,1,5,2,2,3,9,3,9,10,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2500,2500,Trimbach,269,23,41,89,73,23,20,12,257,0,269,260,9,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2500,2500,Trimbach,235,16,34,102,55,15,13,36,199,4,231,229,6,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2500,2500,Trimbach,279,5,39,110,87,29,9,55,224,0,279,267,12,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2500,2500,Trimbach,233,7,30,89,72,26,9,62,171,4,229,214,19,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2500,2500,Trimbach,219,1,27,90,69,27,5,33,186,4,215,215,4,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2501,2501,Winznau,40,6,8,11,10,4,1,1,39,0,40,39,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2501,2501,Winznau,41,4,14,10,9,3,1,2,39,1,40,37,4,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2501,2501,Winznau,19,3,2,3,6,3,2,3,16,0,19,13,6,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2501,2501,Winznau,15,1,0,3,6,2,3,5,10,1,14,1,14,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2501,2501,Winznau,13,0,1,2,3,2,5,3,10,0,13,7,6,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2502,2502,Wisen (SO),2,0,1,1,0,0,0,0,2,0,2,2,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2502,2502,Wisen (SO),2,1,0,1,0,0,0,0,2,0,2,2,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2502,2502,Wisen (SO),3,0,1,1,1,0,0,1,2,0,3,2,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2502,2502,Wisen (SO),3,0,0,0,0,3,0,3,0,1,2,0,3,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2502,2502,Wisen (SO),2,0,0,0,2,0,0,1,1,1,1,1,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2503,2503,Erlinsbach (SO),90,10,19,25,24,10,2,5,85,15,75,84,6,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2503,2503,Erlinsbach (SO),62,4,14,18,18,3,5,6,56,3,59,59,3,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2503,2503,Erlinsbach (SO),72,4,9,21,21,15,2,20,52,11,61,62,10,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2503,2503,Erlinsbach (SO),52,2,12,19,12,5,2,7,45,4,48,46,6,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2503,2503,Erlinsbach (SO),31,2,5,12,10,2,0,3,28,0,31,27,4,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2511,2511,Aeschi (SO),15,0,1,3,7,2,2,3,12,0,15,15,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2511,2511,Aeschi (SO),15,0,2,5,6,2,0,0,15,0,15,15,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2511,2511,Aeschi (SO),20,0,3,7,7,3,0,2,18,0,20,20,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2511,2511,Aeschi (SO),12,0,0,8,2,2,0,1,11,0,12,12,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2511,2511,Aeschi (SO),10,0,0,3,3,3,1,2,8,1,9,4,6,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2513,2513,Biberist,54,3,7,18,23,3,0,5,49,10,44,45,9,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2513,2513,Biberist,62,2,6,25,22,7,0,8,54,14,48,43,19,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2513,2513,Biberist,52,1,5,19,21,6,0,6,46,8,44,44,8,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2513,2513,Biberist,57,1,6,19,22,4,5,4,53,10,47,42,15,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2513,2513,Biberist,58,2,7,19,24,6,0,5,53,7,51,46,12,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2514,2514,Bolken,9,2,0,3,2,2,0,2,7,0,9,8,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2514,2514,Bolken,7,0,0,2,5,0,0,1,6,0,7,7,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2514,2514,Bolken,9,0,0,2,7,0,0,2,7,0,9,8,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2514,2514,Bolken,9,1,0,3,5,0,0,1,8,0,9,7,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2514,2514,Bolken,7,0,0,2,4,1,0,1,6,0,7,7,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2516,2516,Deitingen,13,1,2,4,5,1,0,0,13,2,11,13,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2516,2516,Deitingen,5,0,1,3,1,0,0,0,5,0,5,4,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2516,2516,Deitingen,10,1,3,2,3,1,0,0,10,0,10,10,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2516,2516,Deitingen,6,1,0,1,3,1,0,0,6,0,6,5,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2516,2516,Deitingen,26,2,2,7,10,3,2,3,23,4,22,11,15,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2517,2517,Derendingen,59,5,7,23,19,4,1,0,59,17,42,44,15,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2517,2517,Derendingen,44,4,9,16,12,3,0,0,44,15,29,32,12,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2517,2517,Derendingen,53,4,9,10,23,3,4,6,47,5,48,42,11,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2517,2517,Derendingen,57,0,6,22,20,6,3,12,45,0,57,37,20,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2517,2517,Derendingen,38,4,10,13,8,2,1,2,36,0,38,37,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2518,2518,Etziken,11,0,0,4,4,2,1,3,8,0,11,10,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2518,2518,Etziken,20,0,2,10,4,3,1,3,17,1,19,14,6,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2518,2518,Etziken,12,0,1,4,2,3,2,5,7,0,12,9,3,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2518,2518,Etziken,12,0,3,2,1,3,3,5,7,0,12,9,3,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2518,2518,Etziken,15,0,3,2,3,5,2,5,10,4,11,6,9,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2519,2519,Gerlafingen,102,7,13,43,30,5,4,5,97,12,90,87,15,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2519,2519,Gerlafingen,66,0,8,31,24,2,1,0,66,1,65,63,3,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2519,2519,Gerlafingen,109,1,13,55,29,6,5,5,104,0,109,104,5,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2519,2519,Gerlafingen,83,2,19,36,24,1,1,3,80,0,83,82,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2519,2519,Gerlafingen,14,0,1,3,7,1,2,4,10,0,14,12,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2520,2520,Halten,4,0,1,1,2,0,0,0,4,0,4,3,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2520,2520,Halten,8,0,1,3,2,2,0,1,7,1,7,7,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2520,2520,Halten,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2520,2520,Halten,2,0,0,0,2,0,0,1,1,0,2,2,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2520,2520,Halten,3,0,0,0,2,1,0,0,3,0,3,3,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2523,2523,Horriwil,3,0,0,1,0,1,1,2,1,0,3,1,2,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2523,2523,Horriwil,5,0,1,0,2,2,0,2,3,0,5,2,3,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2523,2523,Horriwil,5,0,1,1,1,1,1,2,3,0,5,3,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2523,2523,Horriwil,5,0,1,2,1,1,0,1,4,0,5,4,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2523,2523,Horriwil,5,0,0,0,3,2,0,3,2,0,5,2,3,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2524,2524,Hüniken,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2524,2524,Hüniken,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2524,2524,Hüniken,1,0,0,0,1,0,0,1,0,0,1,0,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2524,2524,Hüniken,1,0,0,0,0,0,1,1,0,0,1,0,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2524,2524,Hüniken,1,0,0,0,0,0,1,1,0,0,1,0,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2525,2525,Kriegstetten,15,1,2,5,4,2,1,0,15,0,15,15,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2525,2525,Kriegstetten,3,0,0,1,2,0,0,0,3,0,3,3,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2525,2525,Kriegstetten,8,0,0,2,5,1,0,1,7,4,4,8,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2525,2525,Kriegstetten,7,0,2,1,4,0,0,0,7,0,7,7,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2525,2525,Kriegstetten,6,0,0,3,2,1,0,0,6,0,6,6,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2526,2526,Lohn-Ammannsegg,16,0,1,7,2,4,2,4,12,5,11,10,6,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2526,2526,Lohn-Ammannsegg,16,0,0,1,8,4,3,3,13,0,16,16,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2526,2526,Lohn-Ammannsegg,14,0,1,2,4,3,4,6,8,0,14,8,6,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2526,2526,Lohn-Ammannsegg,22,2,1,5,4,5,5,9,13,0,22,14,8,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2526,2526,Lohn-Ammannsegg,12,0,0,1,6,1,4,4,8,0,12,7,5,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2527,2527,Luterbach,36,3,7,6,12,5,3,3,33,0,36,36,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2527,2527,Luterbach,66,3,18,24,15,6,0,7,59,0,66,66,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2527,2527,Luterbach,67,8,9,25,13,9,3,6,61,0,67,67,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2527,2527,Luterbach,15,1,4,3,4,2,1,1,14,0,15,13,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2527,2527,Luterbach,14,1,1,7,5,0,0,3,11,0,14,14,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2528,2528,Obergerlafingen,13,1,3,4,5,0,0,0,13,3,10,13,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2528,2528,Obergerlafingen,7,2,1,1,2,0,1,2,5,0,7,4,3,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2528,2528,Obergerlafingen,11,1,4,3,2,1,0,0,11,0,11,7,4,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2528,2528,Obergerlafingen,9,0,1,2,3,3,0,2,7,0,9,5,4,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2528,2528,Obergerlafingen,7,1,1,1,0,4,0,3,4,0,7,2,5,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2529,2529,Oekingen,16,0,5,2,5,2,2,10,6,0,16,6,10,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2529,2529,Oekingen,15,0,4,4,5,0,2,6,9,0,15,9,6,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2529,2529,Oekingen,5,0,2,1,2,0,0,0,5,0,5,5,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2529,2529,Oekingen,5,0,2,0,2,1,0,0,5,0,5,4,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2529,2529,Oekingen,4,0,0,0,2,0,2,1,3,0,4,3,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2530,2530,Recherswil,37,0,10,7,10,6,4,9,28,2,35,31,6,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2530,2530,Recherswil,26,1,4,8,9,3,1,3,23,0,26,22,4,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2530,2530,Recherswil,5,1,0,3,1,0,0,1,4,1,4,4,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2530,2530,Recherswil,11,0,1,2,2,4,2,2,9,0,11,7,4,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2530,2530,Recherswil,7,0,1,0,4,1,1,4,3,0,7,1,6,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2532,2532,Subingen,38,4,8,10,9,6,1,7,31,0,38,37,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2532,2532,Subingen,28,0,7,2,11,5,3,9,19,0,28,27,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2532,2532,Subingen,36,2,16,9,7,1,1,2,34,0,36,34,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2532,2532,Subingen,35,0,8,19,7,1,0,1,34,0,35,34,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2532,2532,Subingen,28,0,6,7,12,2,1,2,26,1,27,25,3,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2534,2534,Zuchwil,465,24,59,241,115,23,3,0,465,0,465,465,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2534,2534,Zuchwil,233,9,31,123,44,20,6,13,220,7,226,217,16,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2534,2534,Zuchwil,211,8,31,98,52,15,7,19,192,5,206,195,16,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2534,2534,Zuchwil,274,14,34,140,56,24,6,24,250,1,273,270,4,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2534,2534,Zuchwil,267,9,41,121,71,19,6,20,247,0,267,267,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2535,2535,Drei Höfe,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2535,2535,Drei Höfe,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2535,2535,Drei Höfe,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2535,2535,Drei Höfe,1,0,0,0,0,0,1,1,0,0,1,0,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2535,2535,Drei Höfe,8,0,1,0,4,1,2,4,4,0,8,4,4,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2541,2541,Balm bei Günsberg,1,0,0,0,0,1,0,1,0,0,1,1,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2541,2541,Balm bei Günsberg,2,0,0,0,1,0,1,2,0,0,2,2,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2541,2541,Balm bei Günsberg,3,0,0,0,2,0,1,3,0,0,3,1,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2541,2541,Balm bei Günsberg,1,0,0,0,1,0,0,0,1,0,1,1,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2541,2541,Balm bei Günsberg,2,0,0,0,2,0,0,2,0,0,2,2,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2542,2542,Bellach,70,1,5,30,34,0,0,0,70,0,70,70,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2542,2542,Bellach,79,0,11,31,36,1,0,0,79,3,76,79,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2542,2542,Bellach,45,0,3,19,22,1,0,0,45,0,45,45,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2542,2542,Bellach,43,0,8,14,16,5,0,0,43,0,43,43,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2542,2542,Bellach,61,3,13,30,13,2,0,0,61,6,55,61,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2543,2543,Bettlach,85,6,17,24,20,16,2,3,82,2,83,82,3,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2543,2543,Bettlach,75,6,21,23,20,4,1,3,72,1,74,73,2,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2543,2543,Bettlach,106,8,27,36,19,8,8,8,98,3,103,98,8,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2543,2543,Bettlach,130,10,30,36,32,12,10,7,123,5,125,119,11,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2543,2543,Bettlach,108,8,20,38,27,7,8,18,90,5,103,99,9,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2544,2544,Feldbrunnen-St. Niklaus,29,2,4,3,8,7,5,3,26,1,28,27,2,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2544,2544,Feldbrunnen-St. Niklaus,17,0,5,5,4,2,1,1,16,0,17,15,2,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2544,2544,Feldbrunnen-St. Niklaus,9,0,1,2,3,2,1,0,9,0,9,9,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2544,2544,Feldbrunnen-St. Niklaus,9,0,2,1,5,1,0,1,8,0,9,8,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2544,2544,Feldbrunnen-St. Niklaus,12,0,3,2,4,3,0,1,11,1,11,9,3,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2545,2545,Flumenthal,20,1,2,9,6,2,0,1,19,0,20,20,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2545,2545,Flumenthal,23,2,3,8,7,3,0,1,22,0,23,23,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2545,2545,Flumenthal,17,1,2,5,7,2,0,0,17,0,17,16,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2545,2545,Flumenthal,15,0,3,3,3,5,1,4,11,0,15,10,5,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2545,2545,Flumenthal,9,0,1,4,2,2,0,0,9,0,9,9,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2546,2546,Grenchen,247,14,49,125,53,4,2,3,244,46,201,233,14,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2546,2546,Grenchen,259,20,54,124,53,7,1,1,258,7,252,246,13,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2546,2546,Grenchen,180,8,38,84,40,8,2,3,177,9,171,162,18,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2546,2546,Grenchen,162,18,32,61,35,13,3,5,157,4,158,144,18,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2546,2546,Grenchen,133,9,26,62,32,4,0,1,132,5,128,126,7,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2547,2547,Günsberg,22,2,3,4,5,3,5,5,17,0,22,19,3,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2547,2547,Günsberg,15,1,1,4,8,1,0,0,15,0,15,14,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2547,2547,Günsberg,18,3,2,4,6,1,2,4,14,0,18,17,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2547,2547,Günsberg,17,2,2,6,4,2,1,2,15,0,17,15,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2547,2547,Günsberg,17,2,2,2,4,6,1,6,11,0,17,11,6,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2548,2548,Hubersdorf,12,3,0,6,1,2,0,5,7,0,12,12,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2548,2548,Hubersdorf,7,1,0,3,3,0,0,1,6,0,7,7,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2548,2548,Hubersdorf,13,0,2,4,2,4,1,5,8,0,13,13,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2548,2548,Hubersdorf,9,2,0,4,2,0,1,4,5,0,9,7,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2548,2548,Hubersdorf,11,1,0,3,3,2,2,5,6,0,11,6,5,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2549,2549,Kammersrohr,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2549,2549,Kammersrohr,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2549,2549,Kammersrohr,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2549,2549,Kammersrohr,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2549,2549,Kammersrohr,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2550,2550,Langendorf,29,1,6,14,5,3,0,0,29,0,29,26,3,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2550,2550,Langendorf,19,0,1,7,7,3,1,1,18,4,15,14,5,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2550,2550,Langendorf,25,1,7,12,4,1,0,2,23,0,25,17,8,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2550,2550,Langendorf,30,1,7,13,5,3,1,3,27,0,30,23,7,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2550,2550,Langendorf,25,2,4,7,7,5,0,0,25,0,25,19,6,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2551,2551,Lommiswil,25,2,4,11,3,5,0,3,22,0,25,22,3,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2551,2551,Lommiswil,25,1,1,10,6,7,0,9,16,0,25,16,9,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2551,2551,Lommiswil,33,2,5,13,7,3,3,9,24,13,20,28,5,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2551,2551,Lommiswil,22,1,6,4,8,1,2,5,17,6,16,22,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2551,2551,Lommiswil,15,2,6,2,3,1,1,1,14,5,10,11,4,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2553,2553,Oberdorf (SO),8,1,2,1,2,0,2,2,6,0,8,5,3,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2553,2553,Oberdorf (SO),7,0,1,4,1,0,1,0,7,0,7,3,4,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2553,2553,Oberdorf (SO),10,1,0,2,5,2,0,2,8,0,10,2,8,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2553,2553,Oberdorf (SO),10,0,0,1,4,0,5,5,5,0,10,2,8,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2553,2553,Oberdorf (SO),16,1,1,6,3,3,2,4,12,3,13,4,12,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2554,2554,Riedholz,59,1,5,21,18,10,4,11,48,4,55,50,9,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2554,2554,Riedholz,43,1,3,17,12,6,4,9,34,0,43,37,6,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2554,2554,Riedholz,49,1,4,17,20,5,2,7,42,5,44,45,4,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2554,2554,Riedholz,37,3,2,12,16,3,1,3,34,2,35,35,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2554,2554,Riedholz,47,2,2,10,17,14,2,13,34,0,47,43,4,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2555,2555,Rüttenen,30,0,6,15,8,1,0,0,30,5,25,28,2,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2555,2555,Rüttenen,12,0,2,3,6,0,1,1,11,1,11,8,4,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2555,2555,Rüttenen,8,1,0,4,1,2,0,2,6,0,8,5,3,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2555,2555,Rüttenen,5,0,1,2,0,1,1,2,3,0,5,3,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2555,2555,Rüttenen,4,0,0,4,0,0,0,0,4,0,4,3,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2556,2556,Selzach,55,3,5,17,19,7,4,5,50,0,55,52,3,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2556,2556,Selzach,57,3,9,25,16,3,1,5,52,15,42,52,5,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2556,2556,Selzach,26,1,2,8,10,4,1,1,25,1,25,21,5,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2556,2556,Selzach,20,0,3,7,8,1,1,2,18,6,14,15,5,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2556,2556,Selzach,23,5,0,6,9,2,1,3,20,4,19,17,6,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2571,2571,Boningen,10,0,2,6,1,1,0,0,10,5,5,10,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2571,2571,Boningen,11,0,2,3,3,2,1,2,9,0,11,10,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2571,2571,Boningen,4,0,0,3,0,1,0,1,3,0,4,3,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2571,2571,Boningen,5,0,1,3,1,0,0,0,5,0,5,5,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2571,2571,Boningen,3,0,0,3,0,0,0,0,3,0,3,3,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2572,2572,Däniken,42,1,5,9,26,1,0,0,42,0,42,39,3,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2572,2572,Däniken,52,0,7,19,18,7,1,7,45,2,50,43,9,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2572,2572,Däniken,41,0,3,15,13,5,5,15,26,5,36,36,5,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2572,2572,Däniken,49,1,8,12,16,7,5,20,29,7,42,36,13,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2572,2572,Däniken,34,0,3,15,9,5,2,6,28,1,33,26,8,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2573,2573,Dulliken,152,5,20,66,43,13,5,9,143,1,151,149,3,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2573,2573,Dulliken,119,3,25,56,28,4,3,0,119,1,118,117,2,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2573,2573,Dulliken,128,1,24,53,35,11,4,17,111,1,127,115,13,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2573,2573,Dulliken,142,3,25,55,33,16,10,23,119,0,142,131,11,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2573,2573,Dulliken,107,1,19,42,30,9,6,12,95,1,106,96,11,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2574,2574,Eppenberg-Wöschnau,10,0,1,6,3,0,0,2,8,0,10,8,2,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2574,2574,Eppenberg-Wöschnau,13,0,1,6,5,1,0,2,11,0,13,11,2,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2574,2574,Eppenberg-Wöschnau,10,1,2,1,3,2,1,2,8,0,10,10,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2574,2574,Eppenberg-Wöschnau,8,0,0,4,2,2,0,2,6,0,8,7,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2574,2574,Eppenberg-Wöschnau,12,2,3,3,2,1,1,2,10,0,12,10,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2575,2575,Fulenbach,51,3,8,12,22,4,2,7,44,0,51,44,7,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2575,2575,Fulenbach,57,5,10,10,22,6,4,8,49,1,56,46,11,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2575,2575,Fulenbach,45,2,5,11,14,10,3,3,42,0,45,42,3,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2575,2575,Fulenbach,46,3,7,12,11,7,6,9,37,0,46,46,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2575,2575,Fulenbach,44,3,5,13,10,6,7,13,31,0,44,31,13,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2576,2576,Gretzenbach,54,8,15,13,16,0,2,1,53,2,52,52,2,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2576,2576,Gretzenbach,34,1,8,6,12,5,2,0,34,0,34,34,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2576,2576,Gretzenbach,10,0,0,0,10,0,0,0,10,0,10,10,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2576,2576,Gretzenbach,30,3,2,7,10,8,0,4,26,0,30,26,4,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2576,2576,Gretzenbach,34,3,2,13,10,4,2,1,33,0,34,33,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2578,2578,Gunzgen,14,1,2,2,7,1,1,1,13,0,14,13,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2578,2578,Gunzgen,26,2,3,8,9,2,2,3,23,0,26,23,3,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2578,2578,Gunzgen,16,1,2,3,6,2,2,2,14,0,16,14,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2578,2578,Gunzgen,18,0,1,6,6,4,1,1,17,0,18,18,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2578,2578,Gunzgen,15,0,4,1,5,4,1,2,13,1,14,13,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2579,2579,Hägendorf,25,0,4,6,13,2,0,1,24,0,25,23,2,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2579,2579,Hägendorf,18,2,4,9,2,1,0,0,18,0,18,18,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2579,2579,Hägendorf,9,1,2,0,6,0,0,0,9,0,9,9,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2579,2579,Hägendorf,32,0,6,11,5,6,4,12,20,0,32,20,12,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2579,2579,Hägendorf,6,0,1,1,3,1,0,0,6,0,6,6,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2580,2580,Kappel (SO),88,8,14,25,27,10,4,2,86,14,74,86,2,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2580,2580,Kappel (SO),52,3,8,15,21,3,2,3,49,3,49,50,2,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2580,2580,Kappel (SO),70,8,12,17,25,6,2,1,69,7,63,70,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2580,2580,Kappel (SO),132,7,15,42,39,21,8,16,116,0,132,127,5,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2580,2580,Kappel (SO),51,7,6,17,11,8,2,9,42,3,48,41,10,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2581,2581,Olten,395,21,81,196,84,11,2,0,395,6,389,393,2,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2581,2581,Olten,421,24,114,202,69,12,0,0,421,0,421,418,3,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2581,2581,Olten,273,17,67,127,53,5,4,3,270,2,271,266,7,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2581,2581,Olten,267,34,39,127,56,9,2,6,261,0,267,262,5,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2581,2581,Olten,227,25,28,103,55,13,3,7,220,0,227,214,13,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2582,2582,Rickenbach (SO),15,1,1,6,7,0,0,0,15,0,15,14,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2582,2582,Rickenbach (SO),5,0,0,2,1,1,1,1,4,0,5,3,2,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2582,2582,Rickenbach (SO),5,1,0,1,1,1,1,2,3,0,5,3,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2582,2582,Rickenbach (SO),8,1,0,1,3,1,2,0,8,3,5,5,3,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2582,2582,Rickenbach (SO),7,0,2,1,3,1,0,0,7,0,7,7,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2583,2583,Schönenwerd,72,4,12,34,13,4,5,5,67,13,59,65,7,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2583,2583,Schönenwerd,110,12,21,37,33,3,4,4,106,0,110,97,13,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2583,2583,Schönenwerd,83,11,13,24,24,5,6,11,72,26,57,62,21,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2583,2583,Schönenwerd,143,11,21,35,49,13,14,14,129,1,142,123,20,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2583,2583,Schönenwerd,91,7,16,33,25,6,4,7,84,0,91,60,31,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2584,2584,Starrkirch-Wil,19,5,0,8,3,2,1,2,17,0,19,15,4,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2584,2584,Starrkirch-Wil,19,3,1,8,5,2,0,3,16,1,18,13,6,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2584,2584,Starrkirch-Wil,20,0,7,8,5,0,0,0,20,0,20,17,3,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2584,2584,Starrkirch-Wil,18,1,6,2,8,0,1,1,17,1,17,16,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2584,2584,Starrkirch-Wil,10,0,2,2,2,2,2,2,8,1,9,6,4,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2585,2585,Walterswil (SO),4,0,2,1,1,0,0,0,4,0,4,4,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2585,2585,Walterswil (SO),2,0,0,0,0,2,0,1,1,0,2,1,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2585,2585,Walterswil (SO),4,0,0,2,1,1,0,1,3,0,4,1,3,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2585,2585,Walterswil (SO),5,0,1,1,1,1,1,3,2,0,5,1,4,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2585,2585,Walterswil (SO),3,0,0,0,1,1,1,2,1,0,3,1,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2586,2586,Wangen bei Olten,174,16,25,60,54,10,9,8,166,46,128,165,9,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2586,2586,Wangen bei Olten,115,13,15,42,39,4,2,2,113,20,95,113,2,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2586,2586,Wangen bei Olten,107,10,21,38,28,6,4,10,97,0,107,97,10,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2586,2586,Wangen bei Olten,110,10,22,49,24,4,1,3,107,0,110,94,16,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2586,2586,Wangen bei Olten,80,4,10,33,25,4,4,9,71,0,80,72,8,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2601,2601,Solothurn,116,10,19,60,23,4,0,0,116,0,116,115,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2601,2601,Solothurn,111,10,18,53,28,0,2,1,110,0,111,103,8,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2601,2601,Solothurn,168,18,25,76,42,7,0,0,168,0,168,166,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2601,2601,Solothurn,190,17,30,86,41,10,6,10,180,5,185,154,36,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2601,2601,Solothurn,125,9,17,50,34,7,8,10,115,10,115,97,28,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2611,2611,Bärschwil,7,0,1,3,0,3,0,3,4,0,7,5,2,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2611,2611,Bärschwil,11,0,1,5,2,0,3,3,8,0,11,11,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2611,2611,Bärschwil,11,1,1,6,1,2,0,2,9,0,11,11,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2611,2611,Bärschwil,10,1,1,4,1,0,3,3,7,0,10,8,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2611,2611,Bärschwil,14,1,1,6,5,1,0,4,10,0,14,12,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2612,2612,Beinwil (SO),0,0,0,0,0,0,0,0,0,0,0,0,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2612,2612,Beinwil (SO),1,0,0,0,0,1,0,0,1,0,1,1,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2612,2612,Beinwil (SO),0,0,0,0,0,0,0,0,0,0,0,0,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2612,2612,Beinwil (SO),0,0,0,0,0,0,0,0,0,0,0,0,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2612,2612,Beinwil (SO),1,0,0,0,0,0,1,0,1,0,1,1,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2613,2613,Breitenbach,85,7,12,33,30,2,1,0,85,5,80,80,5,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2613,2613,Breitenbach,43,2,5,23,12,1,0,0,43,0,43,43,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2613,2613,Breitenbach,38,4,1,14,14,5,0,1,37,1,37,38,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2613,2613,Breitenbach,52,0,5,17,17,11,2,3,49,11,41,37,15,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2613,2613,Breitenbach,43,6,8,14,11,2,2,2,41,0,43,43,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2614,2614,Büsserach,54,3,7,21,15,6,2,8,46,0,54,48,6,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2614,2614,Büsserach,81,5,11,35,20,6,4,13,68,15,66,64,17,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2614,2614,Büsserach,76,5,10,30,21,6,4,8,68,20,56,56,20,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2614,2614,Büsserach,48,4,6,18,12,6,2,8,40,4,44,27,21,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2614,2614,Büsserach,47,2,9,14,11,7,4,10,37,0,47,33,14,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2615,2615,Erschwil,4,0,0,1,3,0,0,2,2,0,4,2,2,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2615,2615,Erschwil,4,0,0,0,3,1,0,3,1,0,4,4,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2615,2615,Erschwil,1,0,0,0,1,0,0,1,0,0,1,1,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2615,2615,Erschwil,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2615,2615,Erschwil,7,0,0,3,1,2,1,3,4,0,7,4,3,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2616,2616,Fehren,7,1,0,4,2,0,0,1,6,0,7,6,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2616,2616,Fehren,1,0,0,0,1,0,0,1,0,0,1,0,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2616,2616,Fehren,1,0,0,0,0,1,0,1,0,0,1,0,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2616,2616,Fehren,0,0,0,0,0,0,0,0,0,0,0,0,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2616,2616,Fehren,3,0,0,1,1,1,0,2,1,0,3,1,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2617,2617,Grindel,4,0,0,0,4,0,0,2,2,0,4,4,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2617,2617,Grindel,6,0,0,1,0,5,0,4,2,0,6,2,4,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2617,2617,Grindel,10,0,1,6,3,0,0,3,7,6,4,7,3,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2617,2617,Grindel,9,0,1,1,4,3,0,2,7,0,9,7,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2617,2617,Grindel,4,0,0,1,2,1,0,2,2,0,4,2,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2618,2618,Himmelried,3,0,0,1,1,0,1,2,1,0,3,2,1,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2618,2618,Himmelried,6,1,1,2,2,0,0,0,6,0,6,6,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2618,2618,Himmelried,3,2,0,0,1,0,0,0,3,0,3,2,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2618,2618,Himmelried,10,0,0,3,4,1,2,6,4,0,10,4,6,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2618,2618,Himmelried,10,2,0,1,3,0,4,5,5,0,10,4,6,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2619,2619,Kleinlützel,9,0,3,1,1,2,2,5,4,1,8,4,5,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2619,2619,Kleinlützel,8,1,1,1,1,1,3,5,3,2,6,3,5,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2619,2619,Kleinlützel,2,0,0,1,0,1,0,1,1,0,2,1,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2619,2619,Kleinlützel,2,0,1,0,0,1,0,1,1,0,2,1,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2619,2619,Kleinlützel,8,0,2,2,3,0,1,2,6,0,8,6,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2620,2620,Meltingen,1,0,1,0,0,0,0,0,1,1,0,1,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2620,2620,Meltingen,1,1,0,0,0,0,0,0,1,0,1,1,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2620,2620,Meltingen,1,1,0,0,0,0,0,0,1,0,1,0,1,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2620,2620,Meltingen,3,0,0,1,1,1,0,3,0,0,3,0,3,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2620,2620,Meltingen,3,2,1,0,0,0,0,0,3,0,3,3,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2621,2621,Nunningen,13,1,2,5,4,1,0,1,12,0,13,13,0,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2621,2621,Nunningen,11,1,0,2,4,3,1,3,8,0,11,8,3,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2621,2621,Nunningen,16,2,0,7,0,5,2,0,16,0,16,12,4,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2621,2621,Nunningen,14,1,1,3,5,1,3,4,10,1,13,10,4,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2621,2621,Nunningen,20,4,3,0,4,5,4,10,10,4,16,10,10,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2021,Gemeinde,2622,2622,Zullwil,16,2,2,4,7,1,0,0,16,0,16,8,8,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2022,Gemeinde,2622,2622,Zullwil,11,0,1,2,2,3,3,1,10,1,10,7,4,0,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2023,Gemeinde,2622,2622,Zullwil,12,0,0,2,1,5,4,3,9,0,12,5,7,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2024,Gemeinde,2622,2622,Zullwil,1,0,0,0,0,1,0,0,1,0,1,1,0,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
+2025,Gemeinde,2622,2622,Zullwil,4,1,1,1,1,0,0,0,4,0,4,2,2,1,2025-04-06,"BFS, Leerwohnungsstatistik (Swiss Stats Explorer DF_LWZ_1)",2026-10-02
