@@ -1,0 +1,65 @@
+jahr;kennzahl_id;kennzahl;art;wert;einheit
+2018;K1;Operatives Ergebnis aus Verwaltungstätigkeit;RE;84904402;CHF
+2019;K1;Operatives Ergebnis aus Verwaltungstätigkeit;RE;120535579;CHF
+2020;K1;Operatives Ergebnis aus Verwaltungstätigkeit;RE;64419562;CHF
+2021;K1;Operatives Ergebnis aus Verwaltungstätigkeit;RE;109782392;CHF
+2022;K1;Operatives Ergebnis aus Verwaltungstätigkeit;RE;175458527;CHF
+2023;K1;Operatives Ergebnis aus Verwaltungstätigkeit;RE;-31452818;CHF
+2024;K1;Operatives Ergebnis aus Verwaltungstätigkeit;RE;18431832;CHF
+2025;K1;Operatives Ergebnis aus Verwaltungstätigkeit;RE;118873057;CHF
+2018;K2;Wertberichtigung Finanzvermögen;RE;68608;CHF
+2019;K2;Wertberichtigung Finanzvermögen;RE;8693171;CHF
+2020;K2;Wertberichtigung Finanzvermögen;RE;21889280;CHF
+2021;K2;Wertberichtigung Finanzvermögen;RE;0;CHF
+2022;K2;Wertberichtigung Finanzvermögen;RE;0;CHF
+2023;K2;Wertberichtigung Finanzvermögen;RE;481073;CHF
+2024;K2;Wertberichtigung Finanzvermögen;RE;-300000;CHF
+2025;K2;Wertberichtigung Finanzvermögen;RE;0;CHF
+2018;K3;Operatives Ergebnis Erfolgsrechnung;RE;84973011;CHF
+2019;K3;Operatives Ergebnis Erfolgsrechnung;RE;129228750;CHF
+2020;K3;Operatives Ergebnis Erfolgsrechnung;RE;86308842;CHF
+2021;K3;Operatives Ergebnis Erfolgsrechnung;RE;109782392;CHF
+2022;K3;Operatives Ergebnis Erfolgsrechnung;RE;175458527;CHF
+2023;K3;Operatives Ergebnis Erfolgsrechnung;RE;-30971746;CHF
+2024;K3;Operatives Ergebnis Erfolgsrechnung;RE;18131832;CHF
+2025;K3;Operatives Ergebnis Erfolgsrechnung;RE;118873057;CHF
+2018;K4;Gesamtergebnis Erfolgsrechnung;RE;57682183;CHF
+2019;K4;Gesamtergebnis Erfolgsrechnung;RE;101937922;CHF
+2020;K4;Gesamtergebnis Erfolgsrechnung;RE;59018014;CHF
+2021;K4;Gesamtergebnis Erfolgsrechnung;RE;82491564;CHF
+2022;K4;Gesamtergebnis Erfolgsrechnung;RE;148167699;CHF
+2023;K4;Gesamtergebnis Erfolgsrechnung;RE;-58262574;CHF
+2024;K4;Gesamtergebnis Erfolgsrechnung;RE;-9158996;CHF
+2025;K4;Gesamtergebnis Erfolgsrechnung;RE;91582229;CHF
+2018;K5;Operativer Cash-Flow;RE;141760552;CHF
+2019;K5;Operativer Cash-Flow;RE;180681705;CHF
+2020;K5;Operativer Cash-Flow;RE;124264932;CHF
+2021;K5;Operativer Cash-Flow;RE;170670719;CHF
+2022;K5;Operativer Cash-Flow;RE;238307221;CHF
+2023;K5;Operativer Cash-Flow;RE;44599199;CHF
+2024;K5;Operativer Cash-Flow;RE;84357475;CHF
+2025;K5;Operativer Cash-Flow;RE;185270609;CHF
+2018;K6;Nettoinvestitionen;RE;130978153;CHF
+2019;K6;Nettoinvestitionen;RE;137474995;CHF
+2020;K6;Nettoinvestitionen;RE;93646592;CHF
+2021;K6;Nettoinvestitionen;RE;75715117;CHF
+2022;K6;Nettoinvestitionen;RE;86466771;CHF
+2023;K6;Nettoinvestitionen;RE;86416987;CHF
+2024;K6;Nettoinvestitionen;RE;63243422;CHF
+2025;K6;Nettoinvestitionen;RE;71429224;CHF
+2018;K7;Finanzierungsergebnis;RE;10851008;CHF
+2019;K7;Finanzierungsergebnis;RE;51899880;CHF
+2020;K7;Finanzierungsergebnis;RE;52507620;CHF
+2021;K7;Finanzierungsergebnis;RE;94955602;CHF
+2022;K7;Finanzierungsergebnis;RE;151786012;CHF
+2023;K7;Finanzierungsergebnis;RE;-41336715;CHF
+2024;K7;Finanzierungsergebnis;RE;20814053;CHF
+2025;K7;Finanzierungsergebnis;RE;113841385;CHF
+2018;K8;Operativer Selbstfinanzierungsgrad;RE;108;Prozent
+2019;K8;Operativer Selbstfinanzierungsgrad;RE;138;Prozent
+2020;K8;Operativer Selbstfinanzierungsgrad;RE;156;Prozent
+2021;K8;Operativer Selbstfinanzierungsgrad;RE;225;Prozent
+2022;K8;Operativer Selbstfinanzierungsgrad;RE;276;Prozent
+2023;K8;Operativer Selbstfinanzierungsgrad;RE;52;Prozent
+2024;K8;Operativer Selbstfinanzierungsgrad;RE;133;Prozent
+2025;K8;Operativer Selbstfinanzierungsgrad;RE;259;Prozent
